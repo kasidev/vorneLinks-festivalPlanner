@@ -1,4 +1,5 @@
 import {showInfo} from "./showInfo.js";
+import {showFriends} from "./showInfo.js";
 import {add2Favorites} from "./saveAct.js";
 import {removeFavorites} from "./deleteAct.js";
 
@@ -21,20 +22,23 @@ export function contentMain(){
                 <button class="round-btn" id="info_ID" data-id="ID">info</button>
                 <button class="round-btn" id="save_ID" data-id="ID">save</button>
                 <button class="round-btn"><a href='MFW_LINK'>MFW</a></button>
-                <button class="round-btn" id="friends_ID" data-friendsCount=FRIENDS>FRIENDS</button>
+                <button class="round-btn" id="friends_ID" data-friendsCount=FRIENDS data-friendsList=FLIST>FRIENDS</button>
             </div>
         </article>
     </div>`;
     let content = '';
     for (let i = 0; i < actsSorted.length; i++) {
-        if (actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime) {
+        if (actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime ||
+            actsSorted[i].name) {
             let friendsCount=0
+            let friendsList = ""
             for (const friend of JSON.parse(localStorage.friends)) {
                 //console.log("friend",friend)
                 for (const favorites of friend.favorites) {
                     if (favorites == i) {
                         friendsCount=friendsCount+1
-                        console.log("favorites:",favorites,"i:",i,favorites == i,friendsCount)
+                        friendsList += (friend.friendName+", ")
+                        console.log("friendslist",friendsList)
                     }                
                 }
             }
@@ -46,7 +50,8 @@ export function contentMain(){
                 .replace(/TO/g, moment.unix(actsSorted[i].end).format("HH:mm"))
                 .replace(/WHERE/g, stages[actsSorted[i].location-1].name)
                 .replace(/ID/g, actsSorted[i].id)
-                .replace(/FRIENDS/g, friendsCount);
+                .replace(/FRIENDS/g, friendsCount)
+                .replace(/FLIST/g, friendsList);
                 
                 
             entry = entry.replace('<a href=\'http:///\'></a>', '-');
@@ -76,10 +81,42 @@ export function contentMain(){
             if(friendsButton && friendsButton.dataset.friendscount=="0"){
                 friendsButton.remove()
             }
+            if (friendsButton && friendsButton.dataset.friendscount !="0") {
+                friendsButton.addEventListener('click',()=>{
+                    showFriends(friendsButton)
+                })
+                
+            }
             
         
         }
- 
+    function search(term,acts){
+        //console.log(term)
+        
+        if(term.length<3) {
+            matches=[]
+            return
+        }
+        let matches = acts.filter((act)=>{
+            const regex = new RegExp(`${term}`,`gi`)
+            if (act.name){
+                //console.log(airport.iata)
+                return act.name.match(regex) || act.style.match(regex)
+    
+            }
+        })
+        
+        if(matches.length>0){
+            for (const actFound of matches) {
+                console.log(actFound)
+            }
+            
+    
+        }
+    
+    }
+    search("Folk",acts.sort(function(a,b){return a.start-b.start}))
+
 
 
 }

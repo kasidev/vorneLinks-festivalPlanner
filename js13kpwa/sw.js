@@ -7,9 +7,9 @@ self.importScripts('controller/deleteAct.js');
 self.importScripts('controller/filterMenu.js');
 self.importScripts('controller/initStorage.js');
 self.importScripts('controller/saveAct.js');
-self.importScripts('controller/showInof.js');
+self.importScripts('controller/showInfo.js');
 self.importScripts('helper/moment.js');
-console.log("test")
+console.log("service worker test")
 
 // Files to cache
 const cacheName = 'vorneLinksApp';
@@ -47,6 +47,7 @@ self.addEventListener('install', (e) => {
     const cache = await caches.open(cacheName);
     console.log('[Service Worker] Caching all: app shell and content');
     await cache.addAll(contentToCache);
+    console.log("serviceworker installed")
   })());
 });
 

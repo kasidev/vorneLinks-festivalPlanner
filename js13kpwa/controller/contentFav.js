@@ -1,4 +1,5 @@
 import {showInfo} from "./showInfo.js";
+import {statusInfo} from "./showInfo.js";
 import {removeFavorites} from "./deleteAct.js";
 
 export function contentFav(){  
@@ -114,7 +115,7 @@ export function contentFav(){
                             console.log(JSON.parse(xhr.response).id);
                             localStorage.pubID = JSON.parse(xhr.response).id;
                             localStorage.myName = userName;
-                            alert("das hat geklappt")
+                            statusInfo(`dein Name"${userName}"wurde registriert`)
                         }
                     }
                 }
@@ -141,14 +142,14 @@ export function contentFav(){
                 console.log(xhr.responseType);
                 console.log(JSON.parse(xhr.response).id);
                 localStorage.pubID = JSON.parse(xhr.response).id;
-                alert("das hat geklappt")
+                statusInfo("Merkzettel veröffentlicht")
             }
         }
 
     }
     const friendButton = document.getElementById("getFriends")
     friendButton.addEventListener("click",()=>{
-        const newFriend = document.getElementById("friendsName").value
+    const newFriend = document.getElementById("friendsName").value
         if (newFriend.length>0) {
             let xhrCheckName = new XMLHttpRequest
             xhrCheckName.open("GET",`https://diariumobscuri.azurewebsites.net/checkName?name=${newFriend}`)
@@ -157,7 +158,7 @@ export function contentFav(){
             xhrCheckName.send(null);
             xhrCheckName.addEventListener("loadend",()=>{
                 if (JSON.parse(xhrCheckName.response)[0].nameFound == 0) {
-                    alert("nichts gefunden unter diesem namen")
+                    statusInfo(`"${newFriend}" nicht registriert`)
                 }
                 else{
                     let friendFav=JSON.parse(xhrCheckName.response)[1].favorites
@@ -179,7 +180,9 @@ export function contentFav(){
                         //console.log("new element pushed")
                         oldList.push(newElement)
                         localStorage.friends=JSON.stringify(oldList)
+                        statusInfo(`"${newFriend}" als Freund*In hinzugefügt`)
                         updateFriends()
+
                     }
                 }
                 
@@ -198,7 +201,7 @@ export function contentFav(){
         xhr.send(null);
         xhr.addEventListener("loadend",()=>{
             let response=JSON.parse(xhr.response)
-            console.log(response)
+            //console.log(response)
             for (let i_2 = 0; i_2 < response.length; i_2++) {
                 for (const entry of JSON.parse(localStorage.friends)) {
                     //console.log("entry",entry,"response",response[i_2].name)
@@ -212,7 +215,7 @@ export function contentFav(){
                 }
             }
         
-        console.log("stringified",JSON.stringify(newList),newList)
+        //console.log("stringified",JSON.stringify(newList),newList)
         if (JSON.stringify(newList).length>10) {
             localStorage.friends=JSON.stringify(newList)
         }
@@ -220,5 +223,34 @@ export function contentFav(){
        
         })
     }
+    const friendDeleteButton = document.getElementById("removeFriend")
+    friendDeleteButton.addEventListener("click",()=>{
+    const oldFriend = document.getElementById("friendsName").value
+    let newList = []
+    let check=0
+        if (oldFriend.length>0) {
+            for (const entry of JSON.parse(localStorage.friends)) {
+                console.log("old friend",oldFriend,"entry",entry)
+                if (oldFriend != entry.friendName) {
+                    //console.log("match found")
+                    newList.push({
+                        "friendName" : entry.friendName,
+                        "favorites" : entry.favorites
+                    })
+                }
+                else{check=1}
+            }
+            if (JSON.stringify(newList).length>10) {
+                localStorage.friends=JSON.stringify(newList)
+            }
+
+        }
+        if (check == 0) {
+            statusInfo(`"${oldFriend}" nicht gefunden`)
+            
+        } else {
+            statusInfo(`"${oldFriend}" entfernt`)
+        }
+    })
 
 }
