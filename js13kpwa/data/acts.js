@@ -326,7 +326,7 @@ var acts= [
        "end":1660484700,
        "type":"1",
        "style":"Diverse Stile",
-       "info":"Die HORA’BAND scheint ihr eigenes Universum zu bewohnen. Die bezaubernd-elektrisierende Musik des Sechsergespanns lebt von feierlichen Klängen, authentischen Emotionen und Atmosphäre. Mit diversen Gitarren, Wurlitzer-Orgel, Banjo, Schlagzeug und Glockenspiel fabrizieren\ndie HORAs ihren Sound. Dazu kommt die Stimme von Denise Wick Ross, so individuell, wie man sie im Pop kaum mehr antrifft. Ein Wiedersehen nach fünf Jahren wird Tatsache – das Festivalteam freut sich sehr fest drauf.",
+       "info":"Die HORA BAND scheint ihr eigenes Universum zu bewohnen. Die bezaubernd-elektrisierende Musik des Sechsergespanns lebt von feierlichen Klängen, authentischen Emotionen und Atmosphäre. Mit diversen Gitarren, Wurlitzer-Orgel, Banjo, Schlagzeug und Glockenspiel fabrizieren\ndie HORAs ihren Sound. Dazu kommt die Stimme von Denise Wick Ross, so individuell, wie man sie im Pop kaum mehr antrifft. Ein Wiedersehen nach fünf Jahren wird Tatsache – das Festivalteam freut sich sehr fest drauf.",
        "mfwLink":"https://musikfestwochen.ch/acts/horaband-ch/"
     },
     {
