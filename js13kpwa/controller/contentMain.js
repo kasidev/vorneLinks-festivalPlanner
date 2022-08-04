@@ -7,13 +7,21 @@ import {removeFavorites} from "./deleteAct.js";
 export function contentMain(){
     const serachBar= document.getElementById("search")
     const mainPage = document.getElementById('content-main');
-    let content = ""
-    if (serachBar.value.length<3) {
-         content=renderMainPage(acts,mainPage,serachBar)
-        
+    localStorage.searching = "inactive"
+    serachBar.addEventListener('keyup',()=>{
+        const searchRes= search(serachBar.value,acts.sort(function(a,b){return a.start-b.start}))
+        if (searchRes.length>0) {
+            
+            localStorage.searching="active"
+            renderMainPage(searchRes,mainPage)       
+        }
+    })
+    if (localStorage.searching == "inactive") {
+        renderMainPage(acts,mainPage)
     }
+    
 }
-function renderMainPage(acts2Display,mainPage,serachBar) {
+function renderMainPage(acts2Display,mainPage) {
     // Generating content based on the template
     const actsSorted = acts2Display.sort(function(a,b){return a.start-b.start})
     const template = `<div class="act">
@@ -24,7 +32,7 @@ function renderMainPage(acts2Display,mainPage,serachBar) {
             <div class="actData">
                 <ul>
                 <li>TYPE</li>
-                <li><span>FROM</span> - <span>TO</span> @ <span>WHERE</span></li>
+                <li><strong>DATE</strong><span>FROM</span> - <span>TO</span> @ <span>WHERE</span></li>
                 </ul>
             </div>
 
@@ -38,7 +46,8 @@ function renderMainPage(acts2Display,mainPage,serachBar) {
     </div>`;
     let content = '';
     for (let i = 0; i < actsSorted.length; i++) {
-        if (actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime) {
+        if (actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime ||
+            localStorage.searching == "active") {
             let friendsCount=0
             let friendsList = ""
             for (const friend of JSON.parse(localStorage.friends)) {
@@ -47,11 +56,12 @@ function renderMainPage(acts2Display,mainPage,serachBar) {
                     if (favorites == i) {
                         friendsCount=friendsCount+1
                         friendsList += (friend.friendName+", ")
-                        console.log("friendslist",friendsList)
                     }                
                 }
             }
-            let entry = template.replace(/POS/g, (i + 1))
+            if (localStorage.searching == "inactive") {
+
+                let entryNorm = template.replace(/POS/g, (i + 1))
                 .replace(/ACT_NAME/g, actsSorted[i].name)
                 .replace(/TYPE/g, actsSorted[i].style)
                 .replace(/MFW_LINK/g, actsSorted[i].mfwLink)
@@ -60,12 +70,72 @@ function renderMainPage(acts2Display,mainPage,serachBar) {
                 .replace(/WHERE/g, stages[actsSorted[i].location-1].name)
                 .replace(/ID/g, actsSorted[i].id)
                 .replace(/FRIENDS/g, friendsCount)
-                .replace(/FLIST/g, friendsList);
+                .replace(/FLIST/g, friendsList)
+                .replace(/DATE/g, "");
+                entryNorm = entryNorm.replace('<a href=\'http:///\'></a>', '-');
+                content += entryNorm;
+                mainPage.innerHTML=content;
+            }
+            else{
+                let dateString =""
+                switch (parseInt(moment.unix(actsSorted[i].start).format("D"))) {
+                    case 10:
+                        dateString="MITTWUCH 10. "    
+                        break;
+                    case 11:
+                        dateString="DUNSTIG 11. "    
+                        break;
+                    case 12:
+                        dateString="FRITIK 12. "    
+                        break;
+                    case 13:
+                        dateString="SAMSTIG 13. "    
+                        break;
+                    case 14:
+                        dateString="SUNNTIG 14. "    
+                        break;
+                    case 15:
+                        dateString="MENTIG 15. "    
+                        break;
+                    case 16:
+                        dateString="TSISCHTIG 16. "    
+                        break;
+                    case 17:
+                        dateString="MITTWUCH 17. "    
+                        break;
+                    case 18:
+                        dateString="DUNSTIG 18. "    
+                        break;
+                    case 19:
+                        dateString="FRITIK 19. "    
+                        break;
+                    case 20:
+                        dateString="SAMSTIG 20. "    
+                        break;
+                    case 21:
+                        dateString="SUNNTIG 21. "    
+                        break;
                 
-                
-            entry = entry.replace('<a href=\'http:///\'></a>', '-');
-            content += entry;
-            mainPage.innerHTML=content;
+                    default:
+                        dateString="oOOops "
+                        break;
+                }
+                let entrySearch = template.replace(/POS/g, (i + 1))
+                .replace(/ACT_NAME/g, actsSorted[i].name)
+                .replace(/TYPE/g, actsSorted[i].style)
+                .replace(/MFW_LINK/g, actsSorted[i].mfwLink)
+                .replace(/FROM/g, moment.unix(actsSorted[i].start).format("HH:mm"))
+                .replace(/TO/g, moment.unix(actsSorted[i].end).format("HH:mm"))
+                .replace(/WHERE/g, stages[actsSorted[i].location-1].name)
+                .replace(/ID/g, actsSorted[i].id)
+                .replace(/FRIENDS/g, friendsCount)
+                .replace(/FLIST/g, friendsList)
+                .replace(/DATE/g, dateString);
+                entrySearch = entrySearch.replace('<a href=\'http:///\'></a>', '-');
+                content += entrySearch;
+                mainPage.innerHTML=content;
+
+            }
             
         }
     
@@ -94,10 +164,7 @@ function renderMainPage(acts2Display,mainPage,serachBar) {
                  })
             }        
     }
-    serachBar.addEventListener('keyup',()=>{
-        const res= search(serachBar.value,acts.sort(function(a,b){return a.start-b.start}))
-        console.log(res)
-    })
+    
 
     setFilterDate()
 }

@@ -31,6 +31,7 @@ function changeFilterDate(clickedBtn){
     let endTime = moment().dayOfYear(moment.unix(clickedBtn.dataset.starttime).dayOfYear()).hour(23).minute(59).second(59).unix()
     localStorage.startTime=clickedBtn.dataset.starttime
     localStorage.endTime=endTime
+    localStorage.searching="inactive"
     clickedBtn.classList.add("selected")
 
     const mainPage = document.getElementById('content-main');
