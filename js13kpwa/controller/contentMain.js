@@ -5,6 +5,7 @@ import {setFilterDate} from "./filterMenu.js";
 import {removeFavorites} from "./deleteAct.js";
 
 export function contentMain(){
+    console.log("re-render")
     const serachBar= document.getElementById("search")
     const mainPage = document.getElementById('content-main');
     localStorage.searching = "inactive"
@@ -149,9 +150,14 @@ function renderMainPage(acts2Display,mainPage) {
         }
         const saveButton= document.getElementById(`save_${acts[i].id}`)
             if(saveButton){
+                for (const favoriteIndex of JSON.parse(localStorage.favorites).list) {
+                    if (favoriteIndex == acts[i].id) {
+                        saveButton.classList.add("selected")
+                    }
+                }
                 saveButton.addEventListener("click",()=>{
-                    add2Favorites(acts[i].id)
                     saveButton.classList.add("selected")
+                    add2Favorites(acts[i].id)
                 })          
             }
         const friendsButton= document.getElementById(`friends_${acts[i].id}`)

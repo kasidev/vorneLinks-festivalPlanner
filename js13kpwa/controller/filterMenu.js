@@ -4,7 +4,7 @@ import { contentMain } from "./contentMain.js";
 export function setFilterDate(){
     let startTimeStored=localStorage.startTime
 
-    let filterButtons=document.getElementsByClassName("round-btn")
+    let filterButtons=document.getElementsByClassName("dateFilterBtn")
     for (let i = 0; i < filterButtons.length; i++) {
         const btn = filterButtons[i];
         btn.addEventListener("click",()=>{
@@ -22,7 +22,7 @@ export function setFilterDate(){
 }
 
 function changeFilterDate(clickedBtn){
-    let filterButtons=document.getElementsByClassName("round-btn")
+    let filterButtons=document.getElementsByClassName("dateFilterBtn")
     for (let i = 0; i < filterButtons.length; i++) {
         const btn = filterButtons[i];
         btn.classList.remove("selected")

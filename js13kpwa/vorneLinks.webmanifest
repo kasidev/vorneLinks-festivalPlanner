@@ -2,7 +2,13 @@
     "name": "vorneLinks MFW XLVII",
     "short_name": "vorneLinks",
     "description": "Progressive Web App for MFW XLVII, inofficial planner app",
+    "id": "/index.html",
     "icons": [
+        {
+            "src": "img/icons/icon-16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
         {
             "src": "img/icons/icon-32.png",
             "sizes": "32x32",
@@ -14,8 +20,18 @@
             "type": "image/png"
         },
         {
+            "src": "img/icons/icon-72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
             "src": "img/icons/icon-96.png",
             "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/icon-120.png",
+            "sizes": "120x120",
             "type": "image/png"
         },
         {
@@ -24,8 +40,28 @@
             "type": "image/png"
         },
         {
+            "src": "img/icons/icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/icon-150.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
             "src": "img/icons/icon-168.png",
             "sizes": "168x168",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/icon-180.png",
+            "sizes": "180x180",
             "type": "image/png"
         },
         {
@@ -36,6 +72,11 @@
         {
             "src": "img/icons/icon-256.png",
             "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/icon-384.png",
+            "sizes": "384x384",
             "type": "image/png"
         },
         {
