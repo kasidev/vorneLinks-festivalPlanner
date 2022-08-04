@@ -153,6 +153,8 @@ footer a {
 	padding: 20px;
 	border: 1px solid #888;
 	width: 80%;
+	max-height: calc(80vh);
+    overflow-y: auto;
   }
   
   /* The Close Button */

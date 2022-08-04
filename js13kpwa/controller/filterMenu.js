@@ -12,7 +12,6 @@ export function setFilterDate(){
         })
         if (parseInt(startTimeStored) == parseInt(btn.dataset.starttime)) {
             btn.classList.add("selected") 
-            console.log(parseInt(startTimeStored)-parseInt(btn.dataset.starttime))
         }
         else{
             btn.classList.remove("selected")
