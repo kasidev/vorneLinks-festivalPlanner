@@ -1,9 +1,13 @@
-# PWA Examples
+# vorneLinks-festivalPlanner
 
-Examples for progressive web apps.
+A minimalistic progressive web app which displays the schedule of a multiday event using only javascript in the browser, CSS and HTML. No bootstrap, react or other fancy stuff.
 
-In this repo, we currently have:
+The users can access the schedule of the event and save their favorite acts and are then able to post their favorites on the server with their custom user name. Other users can then access their favorites by fetching it from the server. By "following" other users one sees how many of their friends have also saved an act to their favorites.
 
-* [a2hs](a2hs): An example set up to show how Add to home screen (A2HS) works. [See it live here](https://mdn.github.io/pwa-examples/a2hs/). This includes an icon and [manifest file](a2hs/manifest.webmanifest) for allowing the app to be added to home screen, and a [simple service worker](a2hs/sw.js) for making the site work offline.
 
-* [js13kpwa](js13kpwa): A list of A-Frame entries submitted to the js13kGames 2017 competition, used as an example for the MDN articles about Progressive Web Apps. The js13kPWA have the App Shell structure, works offline with the Service Worker, is installable thanks to the Manifest file and Add to Homescreen feature, and is re-engageable by using Notifications and Push. [See it live here](https://mdn.github.io/pwa-examples/js13kpwa/).
+I used a fork of the repo [See it live here](https://github.com/mdn/pwa-examples) to create this festival planner.
+Currently the app is setup for the [47 Winterthurer Musikfestwochen](https://musikfestwochen.ch/).
+
+I was inspired by the [festival planner app](https://timetable.fusion-festival.de) for the fusion festival 2022. GREAT WORK 
+
+Big shout out to the Mozilla foundation and their mission to provide a blueprint for a better internet and empower a new generation of developers and content creators to build it. Let's keep the internet open and accessible to all.
