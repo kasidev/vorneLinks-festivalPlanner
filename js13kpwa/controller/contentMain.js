@@ -5,7 +5,6 @@ import {setFilterDate} from "./filterMenu.js";
 import {removeFavorites} from "./deleteAct.js";
 
 export function contentMain(){
-    console.log("re-render")
     const serachBar= document.getElementById("search")
     const mainPage = document.getElementById('content-main');
     localStorage.searching = "inactive"
@@ -170,9 +169,6 @@ function renderMainPage(acts2Display,mainPage) {
                  })
             }        
     }
-    
-
-    setFilterDate()
 }
 
         

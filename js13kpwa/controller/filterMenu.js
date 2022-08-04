@@ -38,6 +38,8 @@ function changeFilterDate(clickedBtn){
 
     if (mainPage) {
         contentMain();
+       
+        
     }
     else{
         contentFav();
