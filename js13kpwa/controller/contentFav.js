@@ -20,7 +20,7 @@ export function contentFav(){
 
             <div class="actButtons">
                 <button class="round-btn" id="info_ID" data-id="ID">info</button>
-                <button class="round-btn" id="remove_ID" data-id="ID">save</button>
+                <button class="round-btn delete act" id="remove_ID" data-id="ID"><img src="./img/icons/delete.png" alt="X"></button>
                 <button class="round-btn"><a href='MFW_LINK'>MFW</a></button>
             </div>
         </article>
@@ -115,7 +115,7 @@ export function contentFav(){
                             console.log(JSON.parse(xhr.response).id);
                             localStorage.pubID = JSON.parse(xhr.response).id;
                             localStorage.myName = userName;
-                            statusInfo(`dein Name"${userName}"wurde registriert`)
+                            statusInfo(`dein Name "${userName}" wurde registriert`)
                         }
                     }
                 }

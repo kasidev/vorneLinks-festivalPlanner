@@ -16,7 +16,10 @@ export function showFriends(friendsButton){
 }   
 export function statusInfo(infoMsg){
     const infoBar= document.getElementById("statusInfo")
-    //infoBar.style.display = "block"
     infoBar.innerText= infoMsg
+    infoBar.classList.add("ani")
+    setTimeout(() => {
+        infoBar.classList.remove("ani")
+    }, 5000);
 
 }   

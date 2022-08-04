@@ -217,7 +217,7 @@ footer a {
 	margin-right: 1rem
   }
   div.progFav>a.selected{
-	background-color: rgb(77, 46, 127);
+	background-color: #4d2e7f;
   }
   div.progFav>a>button{
 	width: 90%;
@@ -227,21 +227,49 @@ footer a {
 	font-weight: 800;
 	font-size: 2.5rem;
   }
-  input[type="text"]{
+  input[type="text"]#myName{
 	display: inline-block;
 	margin: 2rem 1.6rem auto auto;
 	width: 15rem;
 	padding-top: 1.2rem;
+	padding-left: 13rem;
   }
+  input[type="text"]#friendsName{
+	display: inline-block;
+	margin: 2rem 1.6rem auto auto;
+	width: 15rem;
+	padding-top: 1.2rem;
+	padding-right: 5rem;
+  }
+ 
   div.friends{
 	text-align: center;
   }
   button.friends{
 	display: inline-block;
   }
-  button.friends.delete{
+  button.delete{
 	background-color: #a86d71;
+	margin-left: 3rem;
+  }
+  button.delete.act>img{
+	height: 20px;
+	width: 20px;
   }
   div.friends>p{
-	
+	display: none;
+  }
+  div.friends>p.ani{
+	display: block;
+	animation: fadeIn 2s;
+	background-color:#2da4b1;
+	color: black;
+  }
+  @keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  .round-btn.friends>img{
+	height: 40px;
+	width: 40px;
   }
