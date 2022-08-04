@@ -88,7 +88,7 @@ export function contentFav(){
 
     }
     function pubButtonEventFirst(){
-        let userName = document.getElementById("myName").value
+        let userName = document.getElementById("myName").value.toLowerCase()
         let xhrCheckName = new XMLHttpRequest
         xhrCheckName.open("GET",`https://diariumobscuri.azurewebsites.net/checkName?name=${userName}`)
         xhrCheckName.setRequestHeader('Content-Type', 'application/json') ;
@@ -149,7 +149,7 @@ export function contentFav(){
     }
     const friendButton = document.getElementById("getFriends")
     friendButton.addEventListener("click",()=>{
-    const newFriend = document.getElementById("friendsName").value
+    const newFriend = document.getElementById("friendsName").value.toLowerCase()
         if (newFriend.length>0) {
             let xhrCheckName = new XMLHttpRequest
             xhrCheckName.open("GET",`https://diariumobscuri.azurewebsites.net/checkName?name=${newFriend}`)
@@ -172,7 +172,7 @@ export function contentFav(){
                     for (let i = 0; i < oldList.length; i++) {
                         if (oldList[i].friendName == friendName){
                             check =1;
-                            //console.log("element allredy in list")
+                            statusInfo(`"${newFriend}" war schon gespeichert`)
                         }
                         
                     }
