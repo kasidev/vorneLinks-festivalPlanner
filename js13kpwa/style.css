@@ -8,6 +8,28 @@
 		url(fonts/graduate.ttf) format('truetype'),
 		url(fonts/graduate.woff) format('woff');
 }
+@font-face {
+    font-family: 'cassannet_plusregular';
+    src: url('./fonts/cassannet_plus_regular/cassannet_plus_regular-webfont.eot');
+    src: url('./fonts/cassannet_plus_regular/cassannet_plus_regular-webfont.eot') format('embedded-opentype'),
+         url('./fonts/cassannet_plus_regular/cassannet_plus_regular-webfont.woff2') format('woff2'),
+         url('./fonts/cassannet_plus_regular/cassannet_plus_regular-webfont.woff') format('woff'),
+         url('./fonts/cassannet_plus_regular/cassannet_plus_regular-webfont.ttf') format('truetype'),
+         url('./fonts/cassannet_plus_regular/cassannet_plus_regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'basier_square_monoregular';
+    src: url('./fonts/basier/basiersquaremono-regular-webfont.eot');
+    src: url('./fonts/basier/basiersquaremono-regular-webfont.eot') format('embedded-opentype'),
+         url('./fonts/basier/basiersquaremono-regular-webfont.woff2') format('woff2'),
+         url('./fonts/basier//basiersquaremono-regular-webfont.woff') format('woff'),
+         url('./fonts/basier/basiersquaremono-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -17,24 +39,23 @@ html {
 }
 body {
 	background: #2B355B;
-	font: normal 1.6em Helvetica, Arial, sans-serif;
+	font: normal 1.6em basier_square_monoregular, Arial, sans-serif;
 	line-height: 1.6;
 	color: #e2e0e9;
 	position: relative;
 	
 }
 h1 {
-	font-family: "Graduate", "Times New Roman", Verdana;
+	font-family: "cassannet_plusregular", "Times New Roman", Verdana;
 	font-weight: normal;
 	margin-top: 0;
-	letter-spacing: -0.05em;
 }
 h1 {
 	font-size: 2em;
 	line-height: 1.2em;
 	padding: 0.5em 0.3em 0.2em 0.3em;
 	text-align: center;
-	color: #6c6b6b;
+	color: #a7a7a7;
 }
 h1:before {
 	content: " • ";
