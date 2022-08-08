@@ -12,7 +12,7 @@ self.importScripts('helper/moment.js');*/
 console.log("service worker test")
 
 // Files to cache
-const cacheName = 'vorneLinksApp_20220805_1639';
+const cacheName = 'vorneLinksApp_20220808_0253';
 const appShellFiles = [
   '/index.html',
   '/favorites.html',
