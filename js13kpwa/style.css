@@ -294,3 +294,6 @@ footer a {
 	height: 40px;
 	width: 40px;
   }
+  #actImage{
+	max-width: 300px;
+  }

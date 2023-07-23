@@ -79,41 +79,41 @@ function renderMainPage(acts2Display,mainPage) {
             else{
                 let dateString =""
                 switch (parseInt(moment.unix(actsSorted[i].start).format("D"))) {
+                    case 9:
+                        dateString="MITTWUCH 9. "    
+                        break;
                     case 10:
-                        dateString="MITTWUCH 10. "    
+                        dateString="DUNSTIG 10. "    
                         break;
                     case 11:
-                        dateString="DUNSTIG 11. "    
+                        dateString="FRITIK 11. "    
                         break;
                     case 12:
-                        dateString="FRITIK 12. "    
+                        dateString="SAMSTIG 12. "    
                         break;
                     case 13:
-                        dateString="SAMSTIG 13. "    
+                        dateString="SUNNTIG 13. "    
                         break;
                     case 14:
-                        dateString="SUNNTIG 14. "    
+                        dateString="MENTIG 14. "    
                         break;
                     case 15:
-                        dateString="MENTIG 15. "    
+                        dateString="TSISCHTIG 15. "    
                         break;
                     case 16:
-                        dateString="TSISCHTIG 16. "    
+                        dateString="MITTWUCH 16. "    
                         break;
                     case 17:
-                        dateString="MITTWUCH 17. "    
+                        dateString="DUNSTIG 17. "    
                         break;
                     case 18:
-                        dateString="DUNSTIG 18. "    
+                        dateString="FRITIK 18. "    
                         break;
                     case 19:
-                        dateString="FRITIK 19. "    
+                        dateString="SAMSTIG 19. "    
                         break;
                     case 20:
-                        dateString="SAMSTIG 20. "    
-                        break;
-                    case 21:
-                        dateString="SUNNTIG 21. "    
+                        dateString="SUNNTIG 20. "    
                         break;
                 
                     default:

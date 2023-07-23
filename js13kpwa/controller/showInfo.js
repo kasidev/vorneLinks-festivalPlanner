@@ -4,6 +4,8 @@ export function showInfo(actID){
     modal.style.display = "none"})
     modal.style.display = "block"
     document.getElementById("infoModal").innerText= acts[actID].info
+    document.getElementById("actImage").src= acts[actID].image
+
 
 }
 export function showFriends(friendsButton){
