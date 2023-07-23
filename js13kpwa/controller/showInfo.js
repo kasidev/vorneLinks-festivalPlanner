@@ -3,8 +3,8 @@ export function showInfo(actID){
     document.getElementById("closeModal").addEventListener("click",()=>{
     modal.style.display = "none"})
     modal.style.display = "block"
-    document.getElementById("infoModal").innerText= acts[actID].info
-    document.getElementById("actImage").src= acts[actID].image
+    document.getElementById("infoModal").innerText= acts[actID-1].info
+    document.getElementById("actImage").src= acts[actID-1].image
 
 
 }
