@@ -1,14 +1,7 @@
 var stages = [
     {
-        name:   "Steibi",
-        id:     6,
-        lat:    47.49828,
-        lon:    8.72801,
-
-    },
-    {
-        name:   "Chileplatz",
-        id:     4,
+        name:   "Krafti",
+        id:     1,
         lat:    47.49828,
         lon:    8.72801,
 
@@ -28,22 +21,8 @@ var stages = [
 
     },
     {
-        name:   "Stadtchile",
-        id:     8,
-        lat:    47.49828,
-        lon:    8.72801,
-
-    },
-    {
-        name:   "Gwerbmuseum",
-        id:     7,
-        lat:    47.49828,
-        lon:    8.72801,
-
-    },
-    {
-        name:   "Stadtbibliothek",
-        id:     9,
+        name:   "Chileplatz",
+        id:     4,
         lat:    47.49828,
         lon:    8.72801,
 
@@ -56,12 +35,39 @@ var stages = [
 
     },
     {
-        name:   "Krafti",
-        id:     1,
+        name:   "Steibi",
+        id:     6,
+        lat:    47.49828,
+        lon:    8.72801,
+
+    },
+    {
+        name:   "Gwerbmuseum",
+        id:     7,
+        lat:    47.49828,
+        lon:    8.72801,
+
+    },
+    
+    
+    
+    {
+        name:   "Stadtchile",
+        id:     8,
+        lat:    47.49828,
+        lon:    8.72801,
+
+    },
+    
+    {
+        name:   "Stadtbibliothek",
+        id:     9,
         lat:    47.49828,
         lon:    8.72801,
 
     }
+    
+    
     
     
 ]
