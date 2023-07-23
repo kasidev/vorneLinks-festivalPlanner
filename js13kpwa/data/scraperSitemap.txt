@@ -1,1 +1,21 @@
 {"_id":"mfwComplete20220802","startUrl":["https://musikfestwochen.ch/programm/programm-a-z/?acts_showtype=all#acts_showtype_all"],"selectors":[{"delay":0,"id":"sectionProgrammList","multiple":true,"parentSelectors":["_root"],"selector":"section.programmlist-container","type":"SelectorElement"},{"delay":0,"id":"act","multiple":true,"parentSelectors":["sectionProgrammList"],"selector":"article","type":"SelectorElement"},{"delay":0,"id":"actInfos","multiple":true,"parentSelectors":["act"],"selector":"div.programm-infos","type":"SelectorElement"},{"delay":0,"id":"name","multiple":false,"parentSelectors":["actInfos"],"regex":"","selector":"h3","type":"SelectorText"},{"delay":0,"id":"mfwLink","multiple":false,"parentSelectors":["actInfos"],"selector":"> a","type":"SelectorLink"},{"delay":0,"id":"start","multiple":false,"parentSelectors":["actInfos"],"regex":"","selector":"h4","type":"SelectorText"},{"delay":0,"id":"location","multiple":false,"parentSelectors":["actInfos"],"regex":"","selector":"div:nth-of-type(2)","type":"SelectorText"}]}
+
+div:nth-of-type(3) p div.programm-infos
+
+div div.
+
+article
+	div
+	div
+		div
+			a (link)
+			img (image
+		div
+			div.programm.infos
+				h5 (zeit)
+				h5 (Ort)
+				div (Stil)
+
+
+
+{"_id":"mfwComplete20220802","startUrl":["https://musikfestwochen.ch/programm/programm-a-z/?acts_showtype=all#acts_showtype_all"],"selectors":[{"id":"sectionProgrammList","multiple":true,"parentSelectors":["_root"],"selector":"section.programmlist-container","type":"SelectorElement"},{"id":"act","multiple":true,"parentSelectors":["sectionProgrammList"],"selector":"article","type":"SelectorElement"},{"id":"actInfos1","multiple":true,"parentSelectors":["act"],"selector":"div:nth-of-type(1)","type":"SelectorElement"},{"id":"name_01","multiple":true,"parentSelectors":["actInfos1"],"selector":"div","type":"SelectorElement"},{"id":"actinfos2","multiple":true,"parentSelectors":["act"],"selector":".programm-infos","type":"SelectorElement"},{"id":"Zeit","multiple":false,"parentSelectors":["actinfos2"],"regex":"","selector":"h5:nth-of-type(1)","type":"SelectorText"},{"id":"Ort","multiple":false,"parentSelectors":["actinfos2"],"regex":"","selector":"h5:nth-of-type(2)","type":"SelectorText"},{"id":"Stil","multiple":false,"parentSelectors":["actinfos2"],"regex":"","selector":"div:nth-of-type(1)","type":"SelectorText"},{"id":"link","linkType":"linkFromHref","multiple":false,"parentSelectors":["actinfos2"],"selector":"> a","type":"SelectorLink"},{"id":"name","multiple":false,"parentSelectors":["name_01"],"regex":"","selector":"a h3","type":"SelectorText"},{"id":"Info","multiple":false,"parentSelectors":["actinfos2"],"regex":"","selector":"div:nth-of-type(2)","type":"SelectorText"},{"id":"text","multiple":false,"parentSelectors":["link"],"regex":"","selector":"div:nth-of-type(4) p","type":"SelectorText"},{"id":"image","multiple":false,"parentSelectors":["link"],"selector":"div:nth-of-type(2) img","type":"SelectorImage"},{"id":"spotify","linkType":"linkFromHref","multiple":false,"parentSelectors":["link"],"selector":".large-8 a[target]:nth-of-type(1)","type":"SelectorLink"}]}
