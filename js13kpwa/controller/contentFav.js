@@ -14,7 +14,7 @@ export function contentFav(){
             <div class="actData">
                 <ul>
                 <li>TYPE</li>
-                <li><span>FROM</span> - <span>TO</span> @ <span>WHERE</span></li>
+                <li><span>FROM</span> @ <span>WHERE</span></li>
                 </ul>
             </div>
 
@@ -27,7 +27,7 @@ export function contentFav(){
     </div>`;
     let content = '';
     for (let i = 0; i < actsSorted.length; i++) {
-    if (favoritesStored.list.includes(i)
+    if (favoritesStored.list.includes(actsSorted[i].id)
         && actsSorted[i].start>=localStorage.startTime 
         && actsSorted[i].start<=localStorage.endTime) {
         let entry = template.replace(/POS/g, (i + 1))
@@ -35,7 +35,6 @@ export function contentFav(){
         .replace(/TYPE/g, actsSorted[i].style)
         .replace(/MFW_LINK/g, actsSorted[i].mfwLink)
         .replace(/FROM/g, moment.unix(actsSorted[i].start).format("HH:mm"))
-        .replace(/TO/g, moment.unix(actsSorted[i].end).format("HH:mm"))
         .replace(/WHERE/g, stages[actsSorted[i].location-1].name)
         .replace(/ID/g, actsSorted[i].id);
         
@@ -60,6 +59,8 @@ export function contentFav(){
     if (removeButton) {
         removeButton.addEventListener("click",()=>{
             removeFavorites(actsSorted[i].id)
+            removeButton.parentElement.parentElement.parentElement.style.display = "none"
+            
 
             
         })

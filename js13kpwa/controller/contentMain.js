@@ -32,7 +32,7 @@ function renderMainPage(acts2Display,mainPage) {
             <div class="actData">
                 <ul>
                 <li>TYPE</li>
-                <li><strong>DATE</strong><span>FROM</span> - <span>TO</span> @ <span>WHERE</span></li>
+                <li><strong>DATE</strong> <span>FROM</span> @ <span>WHERE</span></li>
                 </ul>
             </div>
 
@@ -66,7 +66,6 @@ function renderMainPage(acts2Display,mainPage) {
                 .replace(/TYPE/g, actsSorted[i].style)
                 .replace(/MFW_LINK/g, actsSorted[i].mfwLink)
                 .replace(/FROM/g, moment.unix(actsSorted[i].start).format("HH:mm"))
-                .replace(/TO/g, moment.unix(actsSorted[i].end).format("HH:mm"))
                 .replace(/WHERE/g, stages[actsSorted[i].location-1].name)
                 .replace(/ID/g, actsSorted[i].id)
                 .replace(/FRIENDS/g, friendsCount)
@@ -125,7 +124,6 @@ function renderMainPage(acts2Display,mainPage) {
                 .replace(/TYPE/g, actsSorted[i].style)
                 .replace(/MFW_LINK/g, actsSorted[i].mfwLink)
                 .replace(/FROM/g, moment.unix(actsSorted[i].start).format("HH:mm"))
-                .replace(/TO/g, moment.unix(actsSorted[i].end).format("HH:mm"))
                 .replace(/WHERE/g, stages[actsSorted[i].location-1].name)
                 .replace(/ID/g, actsSorted[i].id)
                 .replace(/FRIENDS/g, friendsCount)
@@ -157,6 +155,8 @@ function renderMainPage(acts2Display,mainPage) {
                 saveButton.addEventListener("click",()=>{
                     saveButton.classList.add("selected")
                     add2Favorites(acts[i].id)
+                 
+                    
                 })          
             }
         const friendsButton= document.getElementById(`friends_${acts[i].id}`)

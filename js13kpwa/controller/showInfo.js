@@ -3,8 +3,16 @@ export function showInfo(actID){
     document.getElementById("closeModal").addEventListener("click",()=>{
     modal.style.display = "none"})
     modal.style.display = "block"
-    document.getElementById("infoModal").innerText= acts[actID-1].info
-    document.getElementById("actImage").src= acts[actID-1].image
+    for (const act of acts) {
+        if (act.id == actID) {
+            document.getElementById("infoModal").innerText= act.info
+            if (act.hasOwnProperty('image')) {
+                document.getElementById("actImage").src= act.image   
+            }
+                        
+        }
+      }
+    
 
 
 }
