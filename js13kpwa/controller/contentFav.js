@@ -3,9 +3,172 @@ import {statusInfo} from "./showInfo.js";
 import {removeFavorites} from "./deleteAct.js";
 
 export function contentFav(){  
+    const quotes=[
+        "Die Kritik der Macht ist das Fundament der Demokratie."
+        ,"..."
+        ,"Manchmal ist das Leben so schön, dass ich in alle Richtung davonrennen will und gleichzeitig mitten hinein."
+        ,"..."
+        ,"Mike Tyson, der Boxer, hat einmal gesagt: «Jeder hat einen Plan, bis er eins auf die Fresse bekommt.» "
+        ,"..."
+        ,"Wo es glitzert und der Exzess lebt, da ist meist auch Schatten zu finden, Heike Makatsch 2023"
+        ,"..."
+        ,"Ich kann meine Zufriedenheit nicht delegieren, sondern bin selber dafür verantwortlich"
+        ,"..."
+        ,"Man wird merken, dass das Reisen eine hohe Wertigkeit für die persönliche Zufriedenheit, die eigene Entwicklung und für das Verständnis des Planeten und fremde Kulturen haben kann.... ,Andre Lüthi, Globetrotter Chef, Sonntagszeitung 11. Juni 2023 "
+        ,"..."
+        ,"Jeder soll sein Leben auf seine beste Art führen, die für ihn möglich ist."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"..."
+        ,"Wer sich auf die erotische Leidenschaft mit einer anderen Person einlässt, geht eigentlich das grösste denkbare Risiko ein: Es gibt jetzt nämlich etwas Schlimmeres als den eigenen Tod – den Tod der anderen Person."
+        ,"Wer Sehen lernen will, muss die Wahrnehmung von seiner Erwartung befreien."
+        ,"Wir treiben das System nicht mehr mit unseren Bedürfnissen an, sondern das System treibt uns an."
+        ,"Take your passion and make it happen"
+        ,"..."
+        ,"Glückliche Menschen haben nicht dasBeste von allem, glückliche Menschen machen das beste aus allem"
+        ,"..."
+        ,"Wir geraten hin uhd wieder in beschissene Situationen, die wir ertragen müssen. Keiner von uns hat die absolute Kontrolle über sein Umfeld."
+        ,"..."
+        ,"Liebe ist! Aus zwei Einzelnen ein Wir zu formen das seine Magie daraus bezieht dass jeder in dem Wir ein Ich bleiben darf."
+        ,"..."
+        ,"«In der Schweiz gibt es alles, aber nicht für alle.»"
+
+    ]
+
+    function getRandomQuote() {
+        let min = 0;
+        let max = Math.floor(quotes.length+1);
+        let quoteIndex = Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
+        return quotes[quoteIndex]
+
+    }
+
+
     // Generating content based on the template
     const favoritesStored = JSON.parse(localStorage.getItem("favorites"))
     const actsSorted = acts.sort(function(a,b){return a.start-b.start})
+    let favoritesFound = 0
     const template = `<div class="act">
         <div class="actName">
             <h4>ACT_NAME</h4>
@@ -25,6 +188,23 @@ export function contentFav(){
             </div>
         </article>
     </div>`;
+    const templateEmptyDay = `<div class="act">
+        <div class="actName">
+            <h4>ACT_NAME</h4>
+        </div>
+        <article>
+            <div class="actData">
+                <ul>
+                <li>TITLE</li>
+                <li>QUOTE</li>
+                </ul>
+            </div>
+
+             <div class="actButtons">
+             </div>
+        </article>
+    </div>`;
+
     let content = '';
     for (let i = 0; i < actsSorted.length; i++) {
     if (favoritesStored.list.includes(actsSorted[i].id)
@@ -37,12 +217,30 @@ export function contentFav(){
         .replace(/FROM/g, moment.unix(actsSorted[i].start).format("HH:mm"))
         .replace(/WHERE/g, stages[actsSorted[i].location-1].name)
         .replace(/ID/g, actsSorted[i].id);
+        favoritesFound += 1
         
         entry = entry.replace('<a href=\'http:///\'></a>', '-');
         content += entry;
         }
     }
-    const favoritePage = document.getElementById('content-favorites');   
+    const favoritePage = document.getElementById('content-favorites');
+    if (favoritesFound == 0) {
+        let selectedQuote = getRandomQuote()
+        let emptyEntry = ""
+        if (selectedQuote === "...") {
+            emptyEntry = templateEmptyDay.replace(/ACT_NAME/g, "für de tag sind kei iiträg gspeicheret!")
+            .replace(/TITLE/g, "") 
+            .replace(/QUOTE/g, "")             
+        }
+        else {
+            emptyEntry = templateEmptyDay.replace(/ACT_NAME/g, "für de tag sind kei iiträg gspeicheret!")
+            .replace(/TITLE/g, "Spruch des Tages:") 
+            .replace(/QUOTE/g, getRandomQuote()) 
+        }
+        console.log(quotes)
+        content += emptyEntry
+    }
+    
     favoritePage.innerHTML = content;
 
 
@@ -253,5 +451,8 @@ export function contentFav(){
             statusInfo(`"${oldFriend}" entfernt`)
         }
     })
+
+    
+      
 
 }
