@@ -42,7 +42,7 @@ var stages = [
 
     },
     {
-        name:   "Gwerbmuseum",
+        name:   "Gwerbmuseum, Relaxed Performances",
         id:     7,
         lat:    47.49828,
         lon:    8.72801,

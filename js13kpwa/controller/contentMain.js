@@ -46,6 +46,10 @@ function renderMainPage(acts2Display,mainPage) {
     </div>`;
     let content = '';
     for (let i = 0; i < actsSorted.length; i++) {
+        console.log(actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime)
+        console.log(moment.unix(actsSorted[i].start).format("DD MMM YYYY HH:mm"))
+        console.log(actsSorted[i].start)
+        console.log(actsSorted[i])
         if (actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime ||
             localStorage.searching == "active") {
             let friendsCount=0
@@ -78,41 +82,41 @@ function renderMainPage(acts2Display,mainPage) {
             else{
                 let dateString =""
                 switch (parseInt(moment.unix(actsSorted[i].start).format("D"))) {
+                    case 7:
+                        dateString="MITTWUCH 7. "    
+                        break;
+                    case 8:
+                        dateString="DUNSTIG 8. "    
+                        break;
                     case 9:
-                        dateString="MITTWUCH 9. "    
+                        dateString="FRITIK 09. "    
                         break;
                     case 10:
-                        dateString="DUNSTIG 10. "    
+                        dateString="SAMSTIG 10. "    
                         break;
                     case 11:
-                        dateString="FRITIK 11. "    
+                        dateString="SUNNTIG 11. "    
                         break;
                     case 12:
-                        dateString="SAMSTIG 12. "    
+                        dateString="MENTIG 12. "    
                         break;
                     case 13:
-                        dateString="SUNNTIG 13. "    
+                        dateString="TSISCHTIG 13. "    
                         break;
                     case 14:
-                        dateString="MENTIG 14. "    
+                        dateString="MITTWUCH 14. "    
                         break;
                     case 15:
-                        dateString="TSISCHTIG 15. "    
+                        dateString="DUNSTIG 15. "    
                         break;
                     case 16:
-                        dateString="MITTWUCH 16. "    
+                        dateString="FRITIK 16. "    
                         break;
                     case 17:
-                        dateString="DUNSTIG 17. "    
+                        dateString="SAMSTIG 17. "    
                         break;
                     case 18:
-                        dateString="FRITIK 18. "    
-                        break;
-                    case 19:
-                        dateString="SAMSTIG 19. "    
-                        break;
-                    case 20:
-                        dateString="SUNNTIG 20. "    
+                        dateString="SUNNTIG 18. "    
                         break;
                 
                     default:

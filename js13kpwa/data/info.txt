@@ -1,1 +1,3 @@
 use the Web Scraper browser extension (Chrome) from webscraper.io
+
+transform the xlsx file to json with https://tableconvert.com/excel-to-json

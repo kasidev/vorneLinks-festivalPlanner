@@ -1,4 +1,3 @@
-self.importScripts('data/games.js');
 self.importScripts('data/stages.js');
 self.importScripts('data/acts.js');
 /*self.importScripts('controller/contentFav.js');
@@ -12,7 +11,7 @@ self.importScripts('helper/moment.js');*/
 console.log("service worker test")
 
 // Files to cache
-const cacheName = 'vorneLinksApp_20220808_0253';
+const cacheName = 'vorneLinksApp_20230724_0210';
 const appShellFiles = [
   '/index.html',
   '/favorites.html',
