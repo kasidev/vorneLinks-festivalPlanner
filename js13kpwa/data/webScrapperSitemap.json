@@ -1,0 +1,172 @@
+{
+    "_id": "mfwComplete20220802",
+    "startUrl": [
+      "https://musikfestwochen.ch/programm/programm-a-z/?acts_showtype=all#acts_showtype_all"
+    ],
+    "selectors": [
+      {
+        "id": "sectionProgrammList",
+        "parentSelectors": [
+          "_root"
+        ],
+        "type": "SelectorElement",
+        "selector": "section.programmlist-container",
+        "multiple": true,
+        "scroll": false,
+        "elementLimit": 0
+      },
+      {
+        "id": "act",
+        "parentSelectors": [
+          "sectionProgrammList"
+        ],
+        "type": "SelectorElement",
+        "selector": "article",
+        "multiple": true,
+        "scroll": false,
+        "elementLimit": 0
+      },
+      {
+        "id": "actInfos1",
+        "parentSelectors": [
+          "act"
+        ],
+        "type": "SelectorElement",
+        "selector": "div:nth-of-type(1)",
+        "multiple": false,
+        "scroll": false,
+        "elementLimit": 0
+      },
+      {
+        "id": "name_01",
+        "parentSelectors": [
+          "actInfos1"
+        ],
+        "type": "SelectorElement",
+        "selector": "div",
+        "multiple": false,
+        "scroll": false,
+        "elementLimit": 0
+      },
+      {
+        "id": "actinfos2",
+        "parentSelectors": [
+          "act"
+        ],
+        "type": "SelectorElement",
+        "selector": ".programm-infos",
+        "multiple": false,
+        "scroll": false,
+        "elementLimit": 0
+      },
+      {
+        "id": "Zeit",
+        "parentSelectors": [
+          "actinfos2"
+        ],
+        "type": "SelectorText",
+        "selector": "h5:nth-of-type(1)",
+        "multiple": false,
+        "regex": ""
+      },
+      {
+        "id": "Ort",
+        "parentSelectors": [
+          "actinfos2"
+        ],
+        "type": "SelectorText",
+        "selector": "h5:nth-of-type(2)",
+        "multiple": false,
+        "regex": ""
+      },
+      {
+        "id": "Stil",
+        "parentSelectors": [
+          "actinfos2"
+        ],
+        "type": "SelectorText",
+        "selector": "div:nth-of-type(1)",
+        "multiple": false,
+        "regex": ""
+      },
+      {
+        "id": "link",
+        "parentSelectors": [
+          "actinfos2"
+        ],
+        "type": "SelectorLink",
+        "selector": "> a",
+        "multiple": false,
+        "linkType": "linkFromHref"
+      },
+      {
+        "id": "name",
+        "parentSelectors": [
+          "name_01"
+        ],
+        "type": "SelectorText",
+        "selector": "a h3",
+        "multiple": false,
+        "regex": ""
+      },
+      {
+        "id": "Info",
+        "parentSelectors": [
+          "link"
+        ],
+        "type": "SelectorText",
+        "selector": "div:nth-of-type(2)",
+        "multiple": false,
+        "regex": ""
+      },
+      {
+        "id": "text",
+        "parentSelectors": [
+          "link"
+        ],
+        "type": "SelectorText",
+        "selector": "div:nth-of-type(4) p",
+        "multiple": false,
+        "regex": ""
+      },
+      {
+        "id": "image",
+        "parentSelectors": [
+          "link"
+        ],
+        "type": "SelectorImage",
+        "selector": ".large-8 img",
+        "multiple": false
+      },
+      {
+        "id": "spotify",
+        "parentSelectors": [
+          "link"
+        ],
+        "type": "SelectorLink",
+        "selector": "a:contains(\"Spotify\")",
+        "multiple": false,
+        "linkType": "linkFromHref"
+      },
+      {
+        "id": "youtube",
+        "parentSelectors": [
+          "link"
+        ],
+        "type": "SelectorLink",
+        "selector": "a:contains(\"Youtube\")",
+        "multiple": false,
+        "linkType": "linkFromHref"
+      },
+      {
+        "id": "Insta",
+        "parentSelectors": [
+          "link"
+        ],
+        "type": "SelectorLink",
+        "selector": "a:contains(\"Instagram\")",
+        "multiple": false,
+        "linkType": "linkFromHref"
+      }
+    ]
+  }
