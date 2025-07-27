@@ -23,7 +23,6 @@ export function contentMain(){
 }
 function renderMainPage(acts2Display,mainPage) {
     // Generating content based on the template
-    console.log("test")
     const actsSorted = acts2Display.sort(function(a,b){return a.start-b.start})
     const template = `<div class="act">
         <div class="actName">
@@ -47,10 +46,10 @@ function renderMainPage(acts2Display,mainPage) {
     </div>`;
     let content = '';
     for (let i = 0; i < actsSorted.length; i++) {
-         console.log(actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime)
+         /* console.log(actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime)
         console.log(moment.unix(actsSorted[i].start).format("DD MMM YYYY HH:mm"))
         console.log(actsSorted[i].start)
-        console.log(actsSorted[i]) 
+        console.log(actsSorted[i]) */
         if (actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime ||
             localStorage.searching == "active") {
             let friendsCount=0
@@ -83,41 +82,41 @@ function renderMainPage(acts2Display,mainPage) {
             else{
                 let dateString =""
                 switch (parseInt(moment.unix(actsSorted[i].start).format("D"))) {
+                    case 6:
+                        dateString="MITTWUCH 6. "    
+                        break;
                     case 7:
-                        dateString="MITTWUCH 7. "    
+                        dateString="DUNSTIG 7. "    
                         break;
                     case 8:
-                        dateString="DUNSTIG 8. "    
+                        dateString="FRITIK 8. "    
                         break;
                     case 9:
-                        dateString="FRITIK 09. "    
+                        dateString="SAMSTIG 9. "    
                         break;
                     case 10:
-                        dateString="SAMSTIG 10. "    
+                        dateString="SUNNTIG 10. "    
                         break;
                     case 11:
-                        dateString="SUNNTIG 11. "    
+                        dateString="MENTIG 11. "    
                         break;
                     case 12:
-                        dateString="MENTIG 12. "    
+                        dateString="TSISCHTIG 12. "    
                         break;
                     case 13:
-                        dateString="TSISCHTIG 13. "    
+                        dateString="MITTWUCH 13. "    
                         break;
                     case 14:
-                        dateString="MITTWUCH 14. "    
+                        dateString="DUNSTIG 14. "    
                         break;
                     case 15:
-                        dateString="DUNSTIG 15. "    
+                        dateString="FRITIK 15. "    
                         break;
                     case 16:
-                        dateString="FRITIK 16. "    
+                        dateString="SAMSTIG 16. "    
                         break;
                     case 17:
-                        dateString="SAMSTIG 17. "    
-                        break;
-                    case 18:
-                        dateString="SUNNTIG 18. "    
+                        dateString="SUNNTIG 17. "    
                         break;
                 
                     default:
