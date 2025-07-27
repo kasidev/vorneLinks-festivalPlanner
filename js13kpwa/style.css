@@ -297,3 +297,29 @@ footer a {
   #actImage{
 	max-width: 300px;
   }
+
+  .social-buttons {
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.social-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: opacity 0.2s ease;
+}
+.social-btn svg {
+    vertical-align: middle;
+}
+.social-btn.spotify { background: #1DB954; }
+.social-btn.instagram { background: #C13584; }
+.social-btn.youtube { background: #FF0000; }
+.social-btn:hover { opacity: 0.85; }
