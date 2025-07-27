@@ -188,7 +188,13 @@ export function contentFav(){
 
             <div class="actButtons">
                 <button class="round-btn" id="info_ID" data-id="ID">info</button>
-                <button class="round-btn delete act" id="remove_ID" data-id="ID"><img src="./img/icons/delete.png" alt="X"></button>
+                
+                <button class="round-btn delete act" id="remove_ID" data-id="ID" aria-label="Delete">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="white">
+                        <path d="M3 6h18v2H3V6zm2 3h14v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V9zm5 2v8h2v-8H10zm4 0v8h2v-8h-2zM9 4h6v2H9V4z"/>
+                    </svg>
+                </button>
+                
                 <button class="round-btn"><a href='MFW_LINK'>MFW</a></button>
             </div>
         </article>
@@ -294,7 +300,7 @@ export function contentFav(){
     function pubButtonEventFirst(){
         let userName = document.getElementById("myName").value.toLowerCase()
         let xhrCheckName = new XMLHttpRequest
-        xhrCheckName.open("GET",`https://diariumobscuri.azurewebsites.net/checkName?name=${userName}`)
+        xhrCheckName.open("GET",`https://yourdatabase.azurewebsites.net/checkName?name=${userName}`)
         xhrCheckName.setRequestHeader('Content-Type', 'application/json') ;
         xhrCheckName.setRequestHeader('Access-Control-Allow-Origin', '*' );
         xhrCheckName.send();
@@ -305,7 +311,7 @@ export function contentFav(){
                 } else {
                     let favoritesStored = JSON.parse(localStorage.getItem("favorites"))
                     let xhr = new XMLHttpRequest();
-                    xhr.open("POST", "https://diariumobscuri.azurewebsites.net/addEntry", true);
+                    xhr.open("POST", "https://yourdatabase.azurewebsites.net/addEntry", true);
                     xhr.setRequestHeader('Content-Type', 'application/json') ;
                     xhr.setRequestHeader('Access-Control-Allow-Origin', '*' );
                     xhr.send(JSON.stringify({
@@ -333,7 +339,7 @@ export function contentFav(){
         let favoritesStored = JSON.parse(localStorage.getItem("favorites"))
         let databaseID = localStorage.pubID
         let xhr = new XMLHttpRequest();
-        xhr.open("POST", "https://diariumobscuri.azurewebsites.net/updateItem", true);
+        xhr.open("POST", "https://yourdatabase.azurewebsites.net/updateItem", true);
         xhr.setRequestHeader('Content-Type', 'application/json') ;
         xhr.setRequestHeader('Access-Control-Allow-Origin', '*' );
         xhr.send(JSON.stringify({
@@ -356,7 +362,7 @@ export function contentFav(){
     const newFriend = document.getElementById("friendsName").value.toLowerCase()
         if (newFriend.length>0) {
             let xhrCheckName = new XMLHttpRequest
-            xhrCheckName.open("GET",`https://diariumobscuri.azurewebsites.net/checkName?name=${newFriend}`)
+            xhrCheckName.open("GET",`https://yourdatabase.azurewebsites.net/checkName?name=${newFriend}`)
             xhrCheckName.setRequestHeader('Content-Type', 'application/json') ;
             xhrCheckName.setRequestHeader('Access-Control-Allow-Origin', '*' );
             xhrCheckName.send(null);
@@ -399,7 +405,7 @@ export function contentFav(){
         let newList = []
         
         let xhr = new XMLHttpRequest
-        xhr.open("GET",`https://diariumobscuri.azurewebsites.net/getFriends`)
+        xhr.open("GET",`https://yourdatabase.azurewebsites.net/getFriends`)
         xhr.setRequestHeader('Content-Type', 'application/json') ;
         xhr.setRequestHeader('Access-Control-Allow-Origin', '*' );
         xhr.send(null);
