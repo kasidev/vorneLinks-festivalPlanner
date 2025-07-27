@@ -21,6 +21,12 @@ export function contentMain(){
     }
     
 }
+
+function getStageName(stageId) {
+    const stage = stages.find(s => s.id === Number(stageId));
+    return stage ? stage.name : "Unknown";
+}
+
 function renderMainPage(acts2Display,mainPage) {
     // Generating content based on the template
     const actsSorted = acts2Display.sort(function(a,b){return a.start-b.start})
@@ -70,7 +76,7 @@ function renderMainPage(acts2Display,mainPage) {
                 .replace(/TYPE/g, actsSorted[i].style)
                 .replace(/MFW_LINK/g, actsSorted[i].mfwLink)
                 .replace(/FROM/g, moment.unix(actsSorted[i].start).format("HH:mm"))
-                .replace(/WHERE/g, stages[actsSorted[i].location-1].name)
+                .replace(/WHERE/g, getStageName(actsSorted[i].location))
                 .replace(/ID/g, actsSorted[i].id)
                 .replace(/FRIENDS/g, friendsCount)
                 .replace(/FLIST/g, friendsList)
@@ -128,7 +134,7 @@ function renderMainPage(acts2Display,mainPage) {
                 .replace(/TYPE/g, actsSorted[i].style)
                 .replace(/MFW_LINK/g, actsSorted[i].mfwLink)
                 .replace(/FROM/g, moment.unix(actsSorted[i].start).format("HH:mm"))
-                .replace(/WHERE/g, stages[actsSorted[i].location-1].name)
+                .replace(/WHERE/g, getStageName(actsSorted[i].location))
                 .replace(/ID/g, actsSorted[i].id)
                 .replace(/FRIENDS/g, friendsCount)
                 .replace(/FLIST/g, friendsList)

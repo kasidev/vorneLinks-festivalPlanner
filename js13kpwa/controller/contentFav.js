@@ -164,6 +164,11 @@ export function contentFav(){
 
     }
 
+    function getStageName(stageId) {
+        const stage = stages.find(s => s.id === Number(stageId));
+        return stage ? stage.name : "Unknown";
+    }
+
 
     // Generating content based on the template
     const favoritesStored = JSON.parse(localStorage.getItem("favorites"))
@@ -215,7 +220,7 @@ export function contentFav(){
         .replace(/TYPE/g, actsSorted[i].style)
         .replace(/MFW_LINK/g, actsSorted[i].mfwLink)
         .replace(/FROM/g, moment.unix(actsSorted[i].start).format("HH:mm"))
-        .replace(/WHERE/g, stages[actsSorted[i].location-1].name)
+        .replace(/WHERE/g, getStageName(actsSorted[i].location))
         .replace(/ID/g, actsSorted[i].id);
         favoritesFound += 1
         
