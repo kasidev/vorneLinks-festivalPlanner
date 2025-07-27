@@ -23,6 +23,7 @@ export function contentMain(){
 }
 function renderMainPage(acts2Display,mainPage) {
     // Generating content based on the template
+    console.log("test")
     const actsSorted = acts2Display.sort(function(a,b){return a.start-b.start})
     const template = `<div class="act">
         <div class="actName">
@@ -46,10 +47,10 @@ function renderMainPage(acts2Display,mainPage) {
     </div>`;
     let content = '';
     for (let i = 0; i < actsSorted.length; i++) {
-       /*  console.log(actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime)
+         console.log(actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime)
         console.log(moment.unix(actsSorted[i].start).format("DD MMM YYYY HH:mm"))
         console.log(actsSorted[i].start)
-        console.log(actsSorted[i]) */
+        console.log(actsSorted[i]) 
         if (actsSorted[i].start>=localStorage.startTime && actsSorted[i].start<=localStorage.endTime ||
             localStorage.searching == "active") {
             let friendsCount=0
