@@ -13,7 +13,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/6YoB73qJnT7MgkHcV53x1d?si=fOIiNzHtQSqUNoaUNfWMIA&nd=1&dlsi=e9c858108dc54ca0",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=QNNB6LqJORo",
-      "id": ""
+      "id": "c6a455eb-b8b6-48dd-bda7-1f3f9ce08b47"
     },
     {
       "name": "2kmafia",
@@ -28,7 +28,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/0Ur4oLQ2SHhiPMYlLpEQ8S?si=Gs9e91l6RtiYUU2WjOsq_w",
       "instagram": "https://www.instagram.com/2kkollective/",
       "youtube": "https://www.youtube.com/watch?v=91kFYWkqtkM",
-      "id": ""
+      "id": "149f1639-3b61-41a4-a064-697db24f2990"
     },
     {
       "name": "22 Strings",
@@ -43,10 +43,10 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "ebe64d14-90da-4983-a4dd-d6b8dc4d1387"
     },
     {
-      "name": "Zukunfts­labor",
+      "name": "Zukunftslabor",
       "location": "4",
       "start": "1754731800",
       "end": "1754731800",
@@ -58,7 +58,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "d1c83efb-e1e0-4f93-86e1-284ee64e3022"
     },
     {
       "name": "Zirkus FahrAwaY",
@@ -73,7 +73,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2vzz8eE7cvfh5IK2F88lm0?si=-y_6fWd-Thq2V8zbqaNHlQ",
       "instagram": "https://www.instagram.com/zirkusfahraway/",
       "youtube": "https://www.youtube.com/watch?v=xFGBkKYs12Y",
-      "id": ""
+      "id": "140cbb06-1ab7-43f5-8269-2ca7993541f4"
     },
     {
       "name": "Zaho de Sagazan",
@@ -88,7 +88,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/38GSybQjdc6sxptciOkxMq?si=6VfrSqd1QTOMMut5rKlq_g",
       "instagram": "https://www.instagram.com/zahodesagazan/?hl=de",
       "youtube": "https://www.youtube.com/watch?v=pqo59FkF_5g",
-      "id": ""
+      "id": "dfc7f74a-9d07-467d-b35c-4c41d9c8c54c"
     },
     {
       "name": "Uzi Freyja",
@@ -103,7 +103,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1RK65n6t13UmpsWLmTQWGz?si=nYeoiFhaSqSRZgfLmcL5cA&nd=1&dlsi=525e5f1729ec4b1a",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=vhg1XDvqOwM&t=2s",
-      "id": ""
+      "id": "3f7a9201-0b46-48f1-b68a-0084cb76a6c3"
     },
     {
       "name": "TTSSFU",
@@ -118,7 +118,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/4u0g598Mtg9ch4HgEP2DFG?si=JukZzRqzSGCuECmcGpmc9Q",
       "instagram": "https://www.instagram.com/ttssfu",
       "youtube": "https://www.youtube.com/watch?v=qy7xlqHcRt4",
-      "id": ""
+      "id": "abd6f7ad-0918-4a3e-8dc4-feb0d581ec16"
     },
     {
       "name": "TRËI «Horizons»",
@@ -133,7 +133,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/7H7JzUOhFkCMmJDUnWfG5X?si=VpyqbEOBS8GDXNtYoCgVgg",
       "instagram": "https://www.instagram.com/trei.sings",
       "youtube": "https://www.youtube.com/watch?v=XVJcMAf3S9E",
-      "id": ""
+      "id": "7d4c8436-a08e-4448-8ea2-5a9481d8f56a"
     },
     {
       "name": "Traute Fiebrich",
@@ -148,7 +148,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1MnzAqtvj542CYGPUBKGtV?si=hbpOcBhTTM6V2cnjA7L2UA",
       "instagram": "https://www.instagram.com/traute.fiebrich?utm_source=ig_web_button_share_sheet",
       "youtube": "https://www.youtube.com/watch?v=4cXl8b5Abhc",
-      "id": ""
+      "id": "438c5848-f8ce-4bb8-8b34-e0df26472bd8"
     },
     {
       "name": "Theatersport vom Casinotheater",
@@ -163,7 +163,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "432d9239-6cdf-48d4-b153-647f6a1823c9"
     },
     {
       "name": "The Urban Country Club",
@@ -178,7 +178,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/theurbancountryclub",
       "youtube": "https://www.youtube.com/watch?v=xUWFuvg4ZY0",
-      "id": ""
+      "id": "82a40edb-5cb0-4894-a65b-4c2236905296"
     },
     {
       "name": "The Sheiks",
@@ -193,7 +193,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/5kd5ZkIzTt7Fxc3BcUpkhM?si=3B80_L7wSviz9TlNk5k9cQ",
       "instagram": "https://www.instagram.com/thesheiksband/",
       "youtube": "https://www.youtube.com/watch?v=h6MtP94u2c4",
-      "id": ""
+      "id": "ed4622ee-307c-4423-ac6d-8bf1cc558a2b"
     },
     {
       "name": "The Friend-Ship",
@@ -208,7 +208,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1V7e4IpjkfWuQL2cFry7Sw?si=b26q8mI4Tk2IwVfbwG-MoQ",
       "instagram": "https://www.instagram.com/thefriendship_band/",
       "youtube": "https://www.youtube.com/watch?v=QFL3Y_ehIc8",
-      "id": ""
+      "id": "85f82a61-6a9e-4ec1-8a80-b5a4d4514aae"
     },
     {
       "name": "Technorama Bühnenshow",
@@ -223,7 +223,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "e2f49a46-297d-461f-a479-d257c342741a"
     },
     {
       "name": "Lindy Hop Tanzkurs",
@@ -238,7 +238,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "35cb558b-6818-46d6-addd-a944e75711da"
     },
     {
       "name": "Swing de Paris",
@@ -253,7 +253,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/65j0pKymX7YNN20pYT7kHo",
       "instagram": "https://www.instagram.com/swingdeparis/",
       "youtube": "https://www.youtube.com/watch?v=KI4CtNtB8wQ",
-      "id": ""
+      "id": "d24b6ac0-8da6-4581-a818-30273a3316db"
     },
     {
       "name": "Stuzzi",
@@ -268,7 +268,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/492u2je7zqQVJVpc2ctWCr?si=tflFW2o6TRma-UhJ6dEZNw",
       "instagram": "https://instagram.com/stuzzzzzi/",
       "youtube": "https://www.youtube.com/watch?v=Bqn7-fySYmE",
-      "id": ""
+      "id": "e2f04c2c-557e-436d-bbaa-333ba7b62411"
     },
     {
       "name": "Stella & The Fridge",
@@ -283,7 +283,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/stellaandthefridge/",
       "youtube": "",
-      "id": ""
+      "id": "898fab27-3566-4c8c-bddb-a19f0ae97e77"
     },
     {
       "name": "Steam Down",
@@ -298,7 +298,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2dOnTAoXrpBwYAo1qIbemO?si=0aKcXa_aS9-ngoho6NuGCw",
       "instagram": "https://www.instagram.com/steamdown/",
       "youtube": "https://www.youtube.com/watch?v=GRWqv8XFrEg",
-      "id": ""
+      "id": "299e4e85-27b8-48ab-8a12-3867d7516463"
     },
     {
       "name": "Soft Loft",
@@ -313,7 +313,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2AeL43nXvfqW3WrV9sDh5t?si=mgJWqg_tTbiedkzBVklHAA",
       "instagram": "https://www.instagram.com/softloftsoftloft",
       "youtube": "https://www.youtube.com/watch?v=Xtyx1OxIeUk",
-      "id": ""
+      "id": "c7622fef-c53b-4429-841f-0dfd4b41b2ef"
     },
     {
       "name": "Silent Reading",
@@ -328,7 +328,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "120f69e5-4325-4241-9aa8-db26224a9d9e"
     },
     {
       "name": "Shmu & Ziller Bas",
@@ -343,7 +343,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/7egikbEShB41Y4iozId8PO?si=FLlDANobT8a0OR2kk-IQDg",
       "instagram": "https://www.instagram.com/shmu_._/",
       "youtube": "",
-      "id": ""
+      "id": "7087daa4-2514-4819-8f94-01a25da3118c"
     },
     {
       "name": "Seulfa",
@@ -358,7 +358,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/7bbqldmfBkBtAyjjBVs4xA?si=IIoD_aggQh6RfC6miJo8xg",
       "instagram": "https://www.instagram.com/seulfamusik/",
       "youtube": "https://www.youtube.com/watch?v=dC-U0-3yRms",
-      "id": ""
+      "id": "16f3ed65-9937-4810-99c7-431189681060"
     },
     {
       "name": "Samuel Okkosch",
@@ -373,7 +373,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/5oD8X0uNFBNvnX98Ci9nND?si=cZMyiXNJSXmAIXCJdX1Wmw",
       "instagram": "https://www.instagram.com/samuelokkosch/",
       "youtube": "https://www.youtube.com/watch?v=CVPjYa0S8u4",
-      "id": ""
+      "id": "38c07fd6-75c9-41b4-9c7d-c942ed7c63a4"
     },
     {
       "name": "Samira Belorf",
@@ -388,7 +388,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "22ee2986-d573-4090-8410-37bae529a90a"
     },
     {
       "name": "Sami Galbi",
@@ -403,7 +403,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1Cqth3WG6MGgGGcRJjzbx5?si=IHcOVgjpRACmDUqe1TDpqw",
       "instagram": "https://www.instagram.com/sami.galbi/",
       "youtube": "https://www.youtube.com/watch?v=5m7vQhbh8qs",
-      "id": ""
+      "id": "97783618-959a-4771-88cc-bb962ffb8b26"
     },
     {
       "name": "Sabina Deutsch: «Friedau»",
@@ -418,7 +418,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "https://vimeo.com/739728510/36eb82ca90",
-      "id": ""
+      "id": "ee10a875-d019-4488-961c-885076fdbb07"
     },
     {
       "name": "resilient 2.0  • Lyn Bentschik",
@@ -433,7 +433,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/lynbentschik/",
       "youtube": "",
-      "id": ""
+      "id": "4fbd3e8a-5c70-414c-9eaf-546a9959eb8c"
     },
     {
       "name": "Rätsel­fest­wochen",
@@ -448,7 +448,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "7b939e5e-abe2-43b9-8739-65badf2cc108"
     },
     {
       "name": "Psychedelic Porn Crumpets",
@@ -463,7 +463,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/7GRrLcUxwtQLvOpO7OHO80?si=NbzkAT1VQ3W3i_NcXqxIJQ",
       "instagram": "https://www.instagram.com/psychedelicprncrumpets",
       "youtube": "https://www.youtube.com/watch?v=7XXd3oV4ymM",
-      "id": ""
+      "id": "c6de10dc-7081-42f5-a67d-77669fa08ae0"
     },
     {
       "name": "Provinz",
@@ -478,7 +478,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2f7f3AmL16mmiAmYnxmmfx?si=qOfkkh0ZQLyM76U1l4mXpA",
       "instagram": "https://www.instagram.com/provinzband/",
       "youtube": "https://www.youtube.com/watch?v=TqEznNNS3F0",
-      "id": ""
+      "id": "1a6bda6a-2aa5-447c-a00b-9e8af21fe1b6"
     },
     {
       "name": "Piera Cadruvi und Olivier Samter",
@@ -493,7 +493,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/oliviersamter/",
       "youtube": "",
-      "id": ""
+      "id": "76c75372-c0b3-47f2-8964-a9d177cfe507"
     },
     {
       "name": "Pem",
@@ -508,7 +508,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/6JVlf8HzDtyI2xPxq4WIHs?si=KsBxj0COTFeD4TNk40xhsw",
       "instagram": "https://www.instagram.com/pemperry",
       "youtube": "https://www.youtube.com/watch?v=DouovFvEuRE&t=1s",
-      "id": ""
+      "id": "b219da03-1af3-43c7-afdb-39db12ee8f79"
     },
     {
       "name": "Paula Mia",
@@ -523,7 +523,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/24UaMxTAvztVujssELyJsN?si=1K3y89AiTZaib5c7WXlaFw",
       "instagram": "https://www.instagram.com/paula.mia/",
       "youtube": "",
-      "id": ""
+      "id": "19d54172-60a0-428b-9d40-7d6b0958376b"
     },
     {
       "name": "Parsimony",
@@ -538,7 +538,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/3x30vXhFOBVQMS7LIT6g7X?si=4LQ3hqpiThKzNf93NIWWCQ&nd=1&dlsi=784fb6e94d31410e",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=skIb0Yg_rAQ",
-      "id": ""
+      "id": "112e3463-69bb-4447-aaa3-36a144944fd6"
     },
     {
       "name": "okgiorgio",
@@ -553,7 +553,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/3SAZh4k4iDPFngB60QKpxg?si=t6GrUbx2Q8qOP7T0oZ1CZw",
       "instagram": "https://www.instagram.com/okgiorgio/",
       "youtube": "https://www.youtube.com/channel/UCB5JHM1QNTnJNAs_a4pxHEw",
-      "id": ""
+      "id": "03d74ba3-5d48-4f5c-bf86-fd24fd2a2ba8"
     },
     {
       "name": "OG Florin & Melodie­sinfonie",
@@ -568,7 +568,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/5OxRSgisvdKcNLUsvCzZc9?si=kBoSRcRqSCWp8m5rRP86aA",
       "instagram": "https://www.instagram.com/og.fleur/",
       "youtube": "https://www.youtube.com/watch?v=HWOIADADSRs",
-      "id": ""
+      "id": "c15b283e-3f7d-4835-8763-654dd5356efe"
     },
     {
       "name": "Öffentliche Führung",
@@ -583,7 +583,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "e4a84c9c-abc3-42e9-bf2a-8f9de975c104"
     },
     {
       "name": "Noah Parks",
@@ -598,7 +598,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1W47ZQbSjqKQiyBDOtlr0p?si=g-00pVzNTXKl-1SG2NfLyQ",
       "instagram": "https://www.instagram.com/itsnoahparks/",
       "youtube": "https://www.youtube.com/watch?v=WkI9LkpmVXk",
-      "id": ""
+      "id": "d9cfe3b1-24c9-423d-949d-53b17942cbeb"
     },
     {
       "name": "Nina Dimitri, Silvana Gargiulo, Nicole Knuth: «Verso il Sole»",
@@ -613,7 +613,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=_FInBnh0cqk",
-      "id": ""
+      "id": "ea1f1886-4850-40da-9944-0527c03732a1"
     },
     {
       "name": "Musik­fest­wochen­ende: beetlebrain, MATGE",
@@ -628,7 +628,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "66c2ec3c-1bd4-46a1-a588-7db14625792e"
     },
     {
       "name": "Musik­fest­wochen­ende Afterhours: Zunami, Olaf Palmstrønd",
@@ -643,7 +643,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "dd5a2d49-a90e-475c-920c-e382a214f9b9"
     },
     {
       "name": "Musikfestwochen Afterhours: Yung Porno Büsi",
@@ -658,7 +658,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "b6189a23-090f-4a12-a31f-a298690f858b"
     },
     {
       "name": "Musikfestwochen Afterhours: Vakui, Meta Raah",
@@ -673,7 +673,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "adbd11d4-8990-4aaa-9beb-dcfb436e7b11"
     },
     {
       "name": "Musikfestwochen Afterhours: Trubaci Soundsistema",
@@ -688,7 +688,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "be182243-6539-4f64-a486-66f6089d127c"
     },
     {
       "name": "Musikfestwochen Afterhours: Maja",
@@ -703,7 +703,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "4196e6a7-e0ee-4223-bf53-999decfe8a5a"
     },
     {
       "name": "Musikfestwochen Afterhours: La Boom!",
@@ -718,7 +718,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "1cefcdeb-d1f8-42f8-a976-deac6546a4cb"
     },
     {
       "name": "Musikfestwochen Afterhours: Ivory Towerz",
@@ -733,7 +733,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "9d623771-94a3-4370-9c24-745a2f534453"
     },
     {
       "name": "Musikfestwochen Afterhours: In/ die Disco",
@@ -748,7 +748,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "b2b47962-7ae6-4a28-be5d-fafa91b82e44"
     },
     {
       "name": "Musikfestwochen Afterhours: Dark Disco",
@@ -763,7 +763,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "7cc0df51-0102-424e-bf7d-2c8721625653"
     },
     {
       "name": "Musik­fest­karussell",
@@ -778,7 +778,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "78d6826f-5fc1-4b17-96a1-f4d128d7f041"
     },
     {
       "name": "MRCY",
@@ -793,7 +793,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/4fHvJqxNjCIVcJekRTHoVh?si=JzVbWGvBQ8u0fdwnUGQTcw",
       "instagram": "https://www.instagram.com/mrcy.mrcy.mrcy",
       "youtube": "https://www.youtube.com/watch?v=t6N3rcLb2rY",
-      "id": ""
+      "id": "9630646e-f47f-41d7-b699-0f129c0a69fd"
     },
     {
       "name": "MOIRA x OTRAVA",
@@ -808,7 +808,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1aGiCn8pYnFRncQsGocqQF?si=BO5nqh9mTWSOHBHVAoLe_g",
       "instagram": "https://www.instagram.com/moira_x_otrava",
       "youtube": "https://www.youtube.com/watch?v=aiRI-wNazhI",
-      "id": ""
+      "id": "26c8c1cd-55f6-48ba-95c2-2459beed4b9d"
     },
     {
       "name": "MJ Lenderman & The Wind",
@@ -823,7 +823,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/4tK6Z8fK7Sc9133byjPGIT?si=elL-9B_6RXe1KPziH5gMJw",
       "instagram": "https://www.instagram.com/mjlenderman",
       "youtube": "https://www.youtube.com/watch?v=gAY74NyLMGs",
-      "id": ""
+      "id": "fb470406-71cb-424f-8a71-94e2e1889b81"
     },
     {
       "name": "Milla",
@@ -838,7 +838,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/6rE5eLk3qCfZo8LDBKuYxN?si=grbgud9-TiuJR2kOIYviaQ",
       "instagram": "https://www.instagram.com/_mi_ll_a__/",
       "youtube": "https://www.youtube.com/watch?v=tMrNsdV4yXk",
-      "id": ""
+      "id": "ff6e53b2-ef7d-481c-9572-254e1d958d61"
     },
     {
       "name": "Michael Stauffer",
@@ -853,7 +853,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "b5f9a24c-9d18-4a0c-b9cd-91e5e85ce6b2"
     },
     {
       "name": "Mia Ackermann",
@@ -868,7 +868,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/ackermann.mia/",
       "youtube": "",
-      "id": ""
+      "id": "63685746-ee70-4d89-a434-4d48b5218a50"
     },
     {
       "name": "Melina Nora",
@@ -883,7 +883,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/0vUj7AXRiRVgGy700ZFSgF?si=gyqiiiPjQRetSivKPNEhCQ",
       "instagram": "https://www.instagram.com/melinanoramusic?utm_source=ig_web_button_share_sheet",
       "youtube": "https://www.youtube.com/watch?v=B5OlS0D8aQQ",
-      "id": ""
+      "id": "3c8b3f19-fad5-439e-9c0f-fe6a5ee7329e"
     },
     {
       "name": "Matz Hoby «Ora si! – Cie Folk Loric»",
@@ -898,7 +898,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=d-cPCICsyMk",
-      "id": ""
+      "id": "530de874-142c-40dc-9269-37274010cda9"
     },
     {
       "name": "Matinée der Musikschulen",
@@ -913,7 +913,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "34c605d2-4ffd-41f6-8c69-2fcab504edfb"
     },
     {
       "name": "Maruja",
@@ -928,7 +928,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/71ISXR7gtIq5E2AdI3jGf0?si=WRlq7LF_TDuH3jRbARUBmw",
       "instagram": "https://www.instagram.com/marujaofficial/",
       "youtube": "https://www.youtube.com/watch?v=8tsvVjC3wcM",
-      "id": ""
+      "id": "411bc6a0-ed83-4b7f-8d25-98fae1770a93"
     },
     {
       "name": "Marlo Grosshardt",
@@ -943,7 +943,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/0oUy6JfoeDteAPMDi1lNJo?si=UgnzlmMLRECU5SCKM4m6Mw",
       "instagram": "https://www.instagram.com/marlogrosshardt/?hl=de",
       "youtube": "https://www.youtube.com/watch?v=0JwdbBvdcmg",
-      "id": ""
+      "id": "889f3a8d-ae38-428b-a951-13329855c023"
     },
     {
       "name": "Musik­fest­wochen­ende: Tranca",
@@ -958,7 +958,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/kraftfeld_winti/",
       "youtube": "",
-      "id": ""
+      "id": "c67d255b-9238-4664-a579-1e6b108b47de"
     },
     {
       "name": "Luvre47",
@@ -973,7 +973,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2qxkFauoxk34qhVdkgbqbz?si=icqp1DxHTBW764vEwJ1prA",
       "instagram": "https://www.instagram.com/luvre47/?hl=de",
       "youtube": "https://www.youtube.com/watch?v=p9wxuY7m13s",
-      "id": ""
+      "id": "f40a94b4-f9a2-4ab6-ba59-994abab07e4e"
     },
     {
       "name": "Luvcat",
@@ -988,7 +988,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2IprcYDAYTYzCl4AJH3AuT?si=To7Lkg6wRv6zcCYW25p3Xg",
       "instagram": "https://www.instagram.com/luvcatband/",
       "youtube": "https://www.youtube.com/watch?v=xu3euMcAQcU",
-      "id": ""
+      "id": "902c9c05-2e57-45fb-8171-49855547481a"
     },
     {
       "name": "Lost in Lona",
@@ -1003,7 +1003,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/6GpX7OGPoZNG1GMbtbiOPD?si=zd9bbCjsTluucFeaVk4McQ",
       "instagram": "https://www.instagram.com/lost_in_lona/",
       "youtube": "https://www.youtube.com/watch?v=0xuYJLGHzWU",
-      "id": ""
+      "id": "78987543-904e-4057-973f-997540be911f"
     },
     {
       "name": "Lily Costa",
@@ -1018,7 +1018,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/lilycosta.music/",
       "youtube": "",
-      "id": ""
+      "id": "f43852cb-52da-4a94-a413-8429f5b2e382"
     },
     {
       "name": "Lesesommer Schlussfest",
@@ -1033,7 +1033,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "9edbad56-fed8-451c-a378-45ebe4731dfe"
     },
     {
       "name": "LePhar",
@@ -1048,7 +1048,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2Ex68JUpCGwG53wjVXkuDO?si=EziOJ1I4S3Wqyf7nKEif2A&nd=1&dlsi=d21894096beb400b",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "44fe8059-4226-477e-a88f-f93995b4d581"
     },
     {
       "name": "Leftovers",
@@ -1063,7 +1063,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/05iAz0MsD0BryYptGXyzqI?si=TjyQdqlzQN-iTBpewD-W-A",
       "instagram": "https://www.instagram.com/leftovers_unofficial/",
       "youtube": "https://www.youtube.com/watch?v=bWZozR53ISs",
-      "id": ""
+      "id": "bd74c75f-15e1-488e-b9c7-810d81693c41"
     },
     {
       "name": "Laurent & Max",
@@ -1078,7 +1078,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/6Eg4oHFLOdq8gL2z2E4jap?si=DHKmoZQyQZ-UKvoQ2SPFEA",
       "instagram": "https://www.instagram.com/laurentundmax/",
       "youtube": "https://www.youtube.com/watch?v=SbTngOb4Mzc",
-      "id": ""
+      "id": "688fd93f-f69a-4e73-b564-a38d26793163"
     },
     {
       "name": "Lara Hulo",
@@ -1093,7 +1093,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/7uIuNffVj9hfFYnh8r27P0?si=Ywvu8zOOQWCYLu8OQ_5W5w",
       "instagram": "https://www.instagram.com/larahulo",
       "youtube": "https://www.youtube.com/watch?v=wsLf1X-jVHU",
-      "id": ""
+      "id": "2d4750e4-e005-4cec-9a1e-8234c6e542c2"
     },
     {
       "name": "LA LOM",
@@ -1108,7 +1108,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/01sY3iLJZtSBa0BIbcpddJ?si=9QLGPH7nQEC6LcesfcT7lA",
       "instagram": "https://www.instagram.com/the_lalom/",
       "youtube": "https://www.youtube.com/watch?v=br-Ij3WMvsg",
-      "id": ""
+      "id": "7f437d46-a81f-4505-af62-a4dcbdadcdd5"
     },
     {
       "name": "Kumbia Queers ",
@@ -1123,7 +1123,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/5YyaDaOco3I0zoLtGxDM5K?si=fIZBE6q5T-Wd9gTeP82baw&nd=1&dlsi=e6a87c9213754f60",
       "instagram": "https://www.instagram.com/kraftfeld_winti/",
       "youtube": "",
-      "id": ""
+      "id": "1dbaae8e-f187-43df-ac2e-702bf446472d"
     },
     {
       "name": "Musik­fest­wochen­ende Nacht.tanz mit DJs",
@@ -1138,7 +1138,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/kraftfeld_winti/",
       "youtube": "",
-      "id": ""
+      "id": "ef3a1328-a001-404a-8cce-d366d1001031"
     },
     {
       "name": "Musik­fest­wochen­ende: HITS DON'T LIE",
@@ -1153,7 +1153,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/kraftfeld_winti/",
       "youtube": "",
-      "id": ""
+      "id": "4399d766-f1ea-459d-9285-9f0410e326cc"
     },
     {
       "name": "Karl Kave & Julia Toggen­burger",
@@ -1168,7 +1168,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/album/1PgyibXgY88MvmnBx7c4jc?si=UorcRTOeQeqi2_sG5Y7wTQ",
       "instagram": "https://www.instagram.com/karlkave",
       "youtube": "",
-      "id": ""
+      "id": "4d4b1a6d-9cb6-47ad-a04b-c9f4c9357bfa"
     },
     {
       "name": "Julia Steiner",
@@ -1183,7 +1183,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/juuliasteiner/",
       "youtube": "",
-      "id": ""
+      "id": "73ae8fe3-f1a4-43d8-b56c-edc8d9801b39"
     },
     {
       "name": "Julia Kubik / Raoul Doré «Hunde­futter»",
@@ -1198,7 +1198,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/hundefuttergruppe/",
       "youtube": "",
-      "id": ""
+      "id": "580929ca-62d5-41e4-b6cc-19f847824bc1"
     },
     {
       "name": "Judith Bach «Endlich»",
@@ -1213,7 +1213,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=_UjillrwEEQ",
-      "id": ""
+      "id": "ca5b3b0b-7627-4544-9c84-7e678295f4f7"
     },
     {
       "name": "jasmine.4.t",
@@ -1228,7 +1228,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2mSYfudGtQzxNYHApMjZBm?si=8KBoWxewQaaaD2SysfVqnw",
       "instagram": "https://www.instagram.com/jasmine.4.t/?hl=en",
       "youtube": "https://www.youtube.com/watch?v=efGW4BL-bWc",
-      "id": ""
+      "id": "252a433b-6ae4-4bc4-86c4-1525f04acc69"
     },
     {
       "name": "Jamal",
@@ -1243,7 +1243,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1tYOWKifYJqpVJ3nnHR3FC?si=luLpuQtUS3uiN39WGoodRg",
       "instagram": "https://www.instagram.com/jamalbrr/",
       "youtube": "https://www.youtube.com/watch?v=pqrxfLEpfwo",
-      "id": ""
+      "id": "7b4dcab9-713f-4afa-b011-46ab6bfdb1b8"
     },
     {
       "name": "IDLES",
@@ -1258,7 +1258,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/75mafsNqNE1WSEVxIKuY5C?si=83SSytC0RyasnBYAd17XgQ",
       "instagram": "https://www.instagram.com/idlesband/",
       "youtube": "https://www.youtube.com/watch?v=LLCy9Ic9aIQ",
-      "id": ""
+      "id": "af392311-84d7-4f10-8ca8-0b2b2f053906"
     },
     {
       "name": "Hohnen Ford",
@@ -1273,7 +1273,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/34c3b95E9ZQPMPapPOv8RW?si=FInarzuDTDGJ_P-0AVRDag",
       "instagram": "https://www.instagram.com/hohnenford",
       "youtube": "https://www.youtube.com/watch?v=U-HClpltznw",
-      "id": ""
+      "id": "90bef992-55a2-4ac9-a318-054a469ab4d5"
     },
     {
       "name": "Gottesdienst",
@@ -1288,7 +1288,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "fde05270-bea5-405d-9625-e378d21912e6"
     },
     {
       "name": "glitchBABY",
@@ -1303,7 +1303,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/3WbMTtG0evaY3QtBatEm4W?si=f9z6c6CZR-S9AqOnslUcHg",
       "instagram": "https://www.instagram.com/glitch_b_a_b_y/",
       "youtube": "https://www.youtube.com/watch?v=sB4mvirzifw&list=OLAK5uy_ntMSLaaYOvklESTKC8truz49hsY11lYU4&index=4",
-      "id": ""
+      "id": "91dcfefc-9e54-45da-acb8-2bb790b9d931"
     },
     {
       "name": "Film: Ester Poly – Sin via en Tunesia",
@@ -1318,7 +1318,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "2bddd9fa-620e-413a-a6cb-8bcbb1c4fb19"
     },
     {
       "name": "Figuren­theater matou «Geister­bahn»",
@@ -1333,7 +1333,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=YOrk1dbM138",
-      "id": ""
+      "id": "0aad5781-906f-456f-8001-21b3352deed5"
     },
     {
       "name": "FiddleJammer",
@@ -1348,7 +1348,7 @@ var acts=
       "spotify": "https://open.spotify.com/episode/35EkSU7AprxiscMV7uSm5x?si=b61f42611378402e",
       "instagram": "https://www.instagram.com/fiddle_jammer/",
       "youtube": "https://www.youtube.com/watch?v=CNASOJKbpoo",
-      "id": ""
+      "id": "bfc4fee9-8826-4ad3-9b67-39f27ef4aeb1"
     },
     {
       "name": "Fau$tino & Manu913",
@@ -1363,7 +1363,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/6m8KlKXrvvy0mXGf2dMoZW?si=k7XDvSm0TTa1WlfFn5HMwQ",
       "instagram": "https://www.instagram.com/faustino9zwei/",
       "youtube": "https://www.youtube.com/watch?v=a-DeuC1-6eA",
-      "id": ""
+      "id": "181a2daa-fc43-40a2-b185-eca48a478c70"
     },
     {
       "name": "Familienplausch",
@@ -1378,7 +1378,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "5bcf1fbc-892c-4ca1-b56e-4116fed2f434"
     },
     {
       "name": "Familienplausch",
@@ -1393,7 +1393,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "cbfdf0be-b125-486a-985b-9fa5cdbf1078"
     },
     {
       "name": "Esteban Lattion",
@@ -1408,7 +1408,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/esteiban/",
       "youtube": "",
-      "id": ""
+      "id": "d134ee38-3332-4570-ab4c-c19e75aaa92c"
     },
     {
       "name": "Emma Rose",
@@ -1423,7 +1423,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/76ULRNlbg99ImmSMdWWtMy?si=MOq1WmvdS7q1KygMJmT01w",
       "instagram": "https://www.instagram.com/emmamarose/",
       "youtube": "https://www.youtube.com/watch?v=5pD4bmV3edo",
-      "id": ""
+      "id": "b6a5b4cc-da5e-4c6d-8afd-7c02b01ab319"
     },
     {
       "name": "Ele A",
@@ -1438,7 +1438,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2p8QkcgkfvIcUTpudqcqRM?si=-cSI5i7oQeafsiQNL-UvLA",
       "instagram": "https://www.instagram.com/eleee.a/",
       "youtube": "https://www.youtube.com/watch?v=UniR5PKTODY",
-      "id": ""
+      "id": "d36296bc-5d14-4612-9f6a-3fa9e7188155"
     },
     {
       "name": "Don West",
@@ -1453,7 +1453,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2FjzRd1bgtsmhESettmFAN?si=MH8sT4wfR1ezhA5G89lOvQ",
       "instagram": "https://www.instagram.com/donwestmusic",
       "youtube": "https://youtu.be/UKVDSvhIRM8?feature=shared",
-      "id": ""
+      "id": "138254d2-bf62-49c4-984f-8cdf79050199"
     },
     {
       "name": "Dominik Hartz",
@@ -1468,7 +1468,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/5UkjZuL8QQccOXbUWoREdI?si=UOd7qxG8Q3y3B3QXq-Qg3A",
       "instagram": "https://www.instagram.com/hartzohne4/",
       "youtube": "https://www.youtube.com/watch?v=GwrBcZdTJUU",
-      "id": ""
+      "id": "6d43e4ac-c875-4a3a-8dea-0194dc5d0120"
     },
     {
       "name": "Death of a Cheerleader",
@@ -1483,7 +1483,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/6XLpDdrNKBp6y6UYoiO4rs?si=7gbJYU5uTeW-BWGQOGN_uw",
       "instagram": "https://www.instagram.com/deathofacheerleaderband",
       "youtube": "https://www.youtube.com/watch?v=mLOpsUkKkLU",
-      "id": ""
+      "id": "acc77844-2b1f-489d-8d6b-281bfd06c9e3"
     },
     {
       "name": "Crucchi Gang",
@@ -1498,7 +1498,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/3ArPx3d8MOwCmBx9UDkQig?si=4VuQbTjkQdi2thXyd6BqcQ",
       "instagram": "https://www.instagram.com/crucchi_gang",
       "youtube": "https://www.youtube.com/watch?v=Zq5O_mgg17s",
-      "id": ""
+      "id": "d916f83d-eb9a-48b0-82c0-db2c9fd3d16a"
     },
     {
       "name": "Citron Sucré",
@@ -1513,7 +1513,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/4jdwrt4GxKV6buiNuwHSDp?si=4z2XO75jTduTkSRupqGz6A&nd=1&dlsi=f3f4f61ae0834bb3",
       "instagram": "https://www.instagram.com/citronsucresound/",
       "youtube": "https://www.youtube.com/c/CitronSucr%C3%A9",
-      "id": ""
+      "id": "0801225c-5047-40c5-b1d6-eb2d00d7994d"
     },
     {
       "name": "Chalk",
@@ -1528,7 +1528,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/3qa9pv6B0dmiBVETLQOCpi?si=78oUVPKTS9q7PeevbAVkGw",
       "instagram": "https://www.instagram.com/chalkband",
       "youtube": "https://www.youtube.com/watch?v=H06PeSIlU6c",
-      "id": ""
+      "id": "b71423f8-8e21-4311-ba1f-a7dd15a8e629"
     },
     {
       "name": "Carla Ahad",
@@ -1543,7 +1543,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/0ic9BGUoRMQidNxGoet7Ln?si=0-rM6a7lQdOxJ1P_qpyY5w&nd=1&dlsi=8858dafcb053461e",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=nyKV4Wlbx4Q",
-      "id": ""
+      "id": "0a742b9e-c1b9-44b8-b397-a3e7e2bba81c"
     },
     {
       "name": "Cara Rose",
@@ -1558,7 +1558,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/3sFRw2rNSs7K5ZS842Idr5?si=NlOGKCPWSSSQGTJKD16vjA",
       "instagram": "https://www.instagram.com/cararosemusic/?hl=de",
       "youtube": "https://www.youtube.com/watch?v=UWtW6ie86L4",
-      "id": ""
+      "id": "ef2b130d-744b-4070-802e-03bd650f44b3"
     },
     {
       "name": "BROCKHOFF",
@@ -1573,7 +1573,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/5ZeRq1tqf4t8fcdFdjmlQZ?si=sLlrwid2ShOXug6Ip0pmrQ&nd=1&dlsi=dafe7d6691e14916",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=t9-qJSyZN7w",
-      "id": ""
+      "id": "666449d8-480a-46cf-8e4d-5579b778742e"
     },
     {
       "name": "Bricknasty",
@@ -1588,7 +1588,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/3BcbwxzJm5f0yppgo2Vatd?si=w0ihmk1kRyGJnWSUY80W5A",
       "instagram": "https://www.instagram.com/bricknxsty/",
       "youtube": "https://www.youtube.com/watch?v=BeHuGWCwNjE",
-      "id": ""
+      "id": "6ecf4a41-3991-4817-991a-23f92ba0c44b"
     },
     {
       "name": "Biandapid",
@@ -1603,7 +1603,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2mn2QfzLeEWaVXq8kiVZam?si=E9JDgiLKTOizCTdCpIFQ0g&nd=1&dlsi=4713173c6df94e40",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=PCnukXbU5oo",
-      "id": ""
+      "id": "77b1f894-4311-4519-be4d-c8aa49edfd55"
     },
     {
       "name": "Béla Rothenbühler",
@@ -1618,7 +1618,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/belarothenbuehler/",
       "youtube": "",
-      "id": ""
+      "id": "690ea36c-af0f-43cc-8c06-3c1ebbf048d0"
     },
     {
       "name": "Barinkeh Sabol feat. Sis Ndingho",
@@ -1633,7 +1633,7 @@ var acts=
       "spotify": "",
       "instagram": "",
       "youtube": "",
-      "id": ""
+      "id": "1b661815-f705-45bd-88bf-440f2eae6016"
     },
     {
       "name": "Band-it Finale",
@@ -1648,7 +1648,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/bandit_zh/",
       "youtube": "",
-      "id": ""
+      "id": "84c5d03b-32f8-46dd-a65c-ee66e8215e93"
     },
     {
       "name": "Bahnhof­buffet Chancental",
@@ -1663,7 +1663,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/0oFaxd5aVbydI85hFUulP2?si=1fTGXPS8S9-Pr6P3gmlbNA&nd=1&dlsi=af97a9edfb654f78",
       "instagram": "",
       "youtube": "https://www.youtube.com/watch?v=SZw9oygtp3g",
-      "id": ""
+      "id": "2b33b74d-d2ec-4585-8099-1b0415c9745f"
     },
     {
       "name": "BACK STREET NOISE",
@@ -1678,7 +1678,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/kraftfeld_winti/",
       "youtube": "",
-      "id": ""
+      "id": "a1e6840e-3acf-42ed-9da7-fa7e9bdd4d2d"
     },
     {
       "name": "AURORA",
@@ -1693,7 +1693,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1WgXqy2Dd70QQOU7Ay074N?si=irxBZMD8TJiqxAe3_eJCjA",
       "instagram": "https://www.instagram.com/auroramusic/",
       "youtube": "https://www.youtube.com/watch?v=d_HlPboLRL8",
-      "id": ""
+      "id": "2f8b4a59-843c-4395-9acd-0f4c87fce6e8"
     },
     {
       "name": "Antony Szmierek",
@@ -1708,7 +1708,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1odn2oz1bEsGWugQ8W3zhn?si=IFzGtSItSkKTALFyOsH5SQ",
       "instagram": "https://www.instagram.com/antonyszmierek/?hl=en",
       "youtube": "https://www.youtube.com/watch?v=XP8fS9WuGqU",
-      "id": ""
+      "id": "b04e36be-2eac-41ec-b262-a6b0ca936dae"
     },
     {
       "name": "Annahstasia",
@@ -1723,7 +1723,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1hElmDU1PFIf4JbkdOcMRE?si=6HyHP7XLTFe2YIew9jl8-w",
       "instagram": "https://www.instagram.com/annahstasia/?hl=de",
       "youtube": "https://www.youtube.com/watch?v=yt_FxQXBvBw",
-      "id": ""
+      "id": "c217cb5b-6669-4013-b47b-1efb4521d8b3"
     },
     {
       "name": "ANIKK",
@@ -1738,7 +1738,7 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/2wvznrRx5MZ2qwqRJPYNmN?si=1b9sSyB_R4exTU5kdh9_vg",
       "instagram": "https://www.instagram.com/anikkmusic/",
       "youtube": "https://www.youtube.com/watch?v=GVBXGfhOj44",
-      "id": ""
+      "id": "2c99c2a2-4b76-4c6c-bf65-24480f3fdfdd"
     },
     {
       "name": "Alli Vibes",
@@ -1753,7 +1753,7 @@ var acts=
       "spotify": "",
       "instagram": "https://www.instagram.com/allivibes_geilescheiss/",
       "youtube": "",
-      "id": ""
+      "id": "16a42e1f-bf15-4766-867b-33cfb825c94e"
     },
     {
       "name": "Aaron Rowe",
@@ -1768,6 +1768,6 @@ var acts=
       "spotify": "https://open.spotify.com/intl-de/artist/1wskVZXoUsbxB5mBhR9Oke?si=aj-KyQGBRiGi8p0dKSG9lQ",
       "instagram": "https://www.instagram.com/aaronrowe__/",
       "youtube": "https://www.youtube.com/watch?v=2sT5Ssaaxnk",
-      "id": ""
+      "id": "5ed38c38-d56d-4dcc-b3fe-e2d019a2b078"
     }
   ]
