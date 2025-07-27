@@ -179,15 +179,16 @@ footer a {
   }
   
   /* The Close Button */
-  .close {
+  .modal-content #closeModal {
 	color: #aaaaaa;
 	float: right;
-	font-size: 28px;
+	font-size: 35px;
 	font-weight: bold;
   }
+
   
-  .close:hover,
-  .close:focus {
+  .modal-content #closeModal:hover,
+  .modal-content #closeModal:focus {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
